@@ -1,0 +1,69 @@
+// layout
+#pageWrapper
+    overflow: hidden
+
+
+#inner_banner
+    position: relative
+    &::after
+        position: absolute
+        content: ""
+        top: 0
+        left: 0
+        width: 100%
+        height: 100%
+        background-color: rgba(0, 0, 0, 0.25)
+        z-index: 1
+    .carousel_img_top
+        height: 300px
+        img
+            @include imgFit
+        @media only screen and ( min-width: 468px)
+            height: 350px
+        @media only screen and ( min-width: 575px)
+            height: 450px
+        @media only screen and ( min-width: 767px)
+            height: 500px
+        @media only screen and ( min-width: 992px)
+            height: 650px
+
+::selection
+    color: #fff
+    background: $basecolor
+::-moz-selection
+    color: #fff
+    background: $basecolor
+
+
+.MainHead   
+    .Head   
+        font-size: 25px
+        line-height: 30px
+        color: $black
+        text-transform: uppercase
+    &.center
+        .Head   
+            text-align: center
+.viewBtn
+    width: 150px
+    height: 48px
+    border: 2px solid #CECECE
+    font-size: 13px
+    line-height: 25px
+    letter-spacing: 0.7px
+    text-transform: uppercase
+    color: #333333
+    display: flex
+    justify-content: center
+    align-items: center
+    &::before
+        background-color: $black
+    &:hover
+        border: 2px solid $black
+        span
+            color: $white
+
+.HeadSec
+    justify-content: space-between
+    align-items: center
+    @include display
