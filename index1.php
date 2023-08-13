@@ -10,9 +10,8 @@
         <div class="videoBx">
             <video loading="lazy" class="lazy entered loaded" autoplay="" muted="" loop="" playsinline="" width="620"
                 data-src="assets/videos/banner-video.mp4" data-poster="assets/images/Mainvideoposter.jpg"
-                data-ll-status="loaded" poster="assets/images/Mainvideoposter.jpg" src="assets/videos/bannervideo1.mp4">
-                <source type="video/mp4" data-src="assets/videos/bannervideo1.mp4"
-                    src="assets/videos/bannervideo14.mp4">
+                data-ll-status="loaded" poster="assets/images/Mainvideoposter.jpg" src="assets/videos/bannervideo.mp4">
+                <source type="video/mp4" data-src="assets/videos/bannervideo.mp4" src="assets/videos/bannervideo.mp4">
             </video>
         </div>
     </section>
@@ -183,7 +182,7 @@
             </div>
             <div class="projectsList">
                 <div class="row">
-                    <div class="col-lg-4">
+                    <div class="col-lg-4 col-sm-6">
                         <a href="javascript:void(0);" class="projBx">
                             <img src="assets/images/project1.png" alt="Project" class="lazy" loading="lazy"
                                 data-src="assets/images/project1.png">
@@ -193,7 +192,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-lg-4 col-sm-6">
                         <a href="javascript:void(0);" class="projBx">
                             <img src="assets/images/project2.png" alt="Project" class="lazy" loading="lazy"
                                 data-src="assets/images/project2.png">
@@ -203,7 +202,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-lg-4 col-sm-6">
                         <a href="javascript:void(0);" class="projBx">
                             <img src="assets/images/project3.png" alt="Project" class="lazy" loading="lazy"
                                 data-src="assets/images/project3.png">
@@ -213,7 +212,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6 col-sm-6">
                         <a href="javascript:void(0);" class="projBx">
                             <img src="assets/images/project4.png" alt="Project" class="lazy" loading="lazy"
                                 data-src="assets/images/project4.png">
@@ -223,7 +222,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class="col-lg-3">
+                    <div class="col-lg-3 col-sm-6">
                         <a href="javascript:void(0);" class="projBx">
                             <img src="assets/images/project5.png" alt="Project" class="lazy" loading="lazy"
                                 data-src="assets/images/project5.png">
@@ -233,7 +232,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class="col-lg-3">
+                    <div class="col-lg-3 col-sm-6">
                         <a href="javascript:void(0);" class="projBx">
                             <img src="assets/images/project6.png" alt="Project" class="lazy" loading="lazy"
                                 data-src="assets/images/project6.png">
@@ -248,6 +247,94 @@
         </div>
     </section>
     <!-- Projects Section  -->
+
+
+    <!-- Clients Section  -->
+    <section id="brandSec">
+        <div class="brandInner">
+            <div class="owl-carousel owl-theme brandSlide">
+                <div class="clientsBx">
+                    <img src="assets/images/client1.png" alt="Clients Logo" width="228" height="153" class="lazy"
+                        loading="lazy" data-src="assets/images/client1.png">
+                </div>
+                <div class="clientsBx">
+                    <img src="assets/images/client2.png" alt="Clients Logo" width="228" height="153" class="lazy"
+                        loading="lazy" data-src="assets/images/client2.png">
+                </div>
+                <div class="clientsBx">
+                    <img src="assets/images/client3.png" alt="Clients Logo" width="228" height="153" class="lazy"
+                        loading="lazy" data-src="assets/images/client3.png">
+                </div>
+                <div class="clientsBx">
+                    <img src="assets/images/client4.png" alt="Clients Logo" width="228" height="153" class="lazy"
+                        loading="lazy" data-src="assets/images/client4.png">
+                </div>
+                <div class="clientsBx">
+                    <img src="assets/images/client5.png" alt="Clients Logo" width="228" height="153" class="lazy"
+                        loading="lazy" data-src="assets/images/client5.png">
+                </div>
+                <div class="clientsBx">
+                    <img src="assets/images/client6.png" alt="Clients Logo" width="228" height="153" class="lazy"
+                        loading="lazy" data-src="assets/images/client6.png">
+                </div>
+                <div class="clientsBx">
+                    <img src="assets/images/client7.png" alt="Clients Logo" width="228" height="153" class="lazy"
+                        loading="lazy" data-src="assets/images/client7.png">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Clients Section  -->
+
+
+    <section id="blogSec">
+        <div class="container">
+            <div class="HeadSec">
+                <div class="MainHead">
+                    <div class="Head">BLOG</div>
+                </div>
+                <a href="javascript:void(0);" class="viewBtn hoveranim"><span>VIEW ALL</span></a>
+            </div>
+            <div class="owl-carousel owl-theme blogSlide">
+                <a href="javascript:void(0);" class="blogBx">
+                    <div class="imgSec">
+                        <img src="assets/images/blog1.jpg" alt="Blog" width="472" height="537" class="lazy"
+                            loading="lazy" data-src="assets/images/blog1.jpg">
+                        <div class="date">21 July 2023</div>
+                    </div>
+                    <div class="cntSec">
+                        <div class="title">Emporia is your strategic partner
+                            in food distribution</div>
+                        <p>Lorem ipsum dolor sit amet, consectetur elit. Igitur neque stultorum quisquam beatus...</p>
+                    </div>
+                </a>
+                <a href="javascript:void(0);" class="blogBx">
+                    <div class="imgSec">
+                        <img src="assets/images/blog2.jpg" alt="Blog" width="472" height="537" class="lazy"
+                            loading="lazy" data-src="assets/images/blog2.jpg">
+                        <div class="date">21 July 2023</div>
+                    </div>
+                    <div class="cntSec">
+                        <div class="title">Emporia is your strategic partner
+                            in food distribution</div>
+                        <p>Lorem ipsum dolor sit amet, consectetur elit. Igitur neque stultorum quisquam beatus...</p>
+                    </div>
+                </a>
+                <a href="javascript:void(0);" class="blogBx">
+                    <div class="imgSec">
+                        <img src="assets/images/blog3.jpg" alt="Blog" width="472" height="537" class="lazy"
+                            loading="lazy" data-src="assets/images/blog3.jpg">
+                        <div class="date">21 July 2023</div>
+                    </div>
+                    <div class="cntSec">
+                        <div class="title">Emporia is your strategic partner
+                            in food distribution</div>
+                        <p>Lorem ipsum dolor sit amet, consectetur elit. Igitur neque stultorum quisquam beatus...</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
 
 
 
@@ -271,7 +358,6 @@
     <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js"
         integrity="sha512-8E3KZoPoZCD+1dgfqhPbejQBnQfBXe8FuwL4z/c8sTrgeDMFEnoyTlH3obB4/fV+6Sg0a0XF+L/6xS4Xx1fUEg=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
 
 
     <script>
@@ -324,57 +410,101 @@
         })
         // Testimonial Slider
 
-        //Customer Slider
-        var newsSplide = new Splide('.customerSlider', {
-            type: 'loop',
-            drag: true,
-            perPage: 3,
-            gap: '20px',
-            autoplay: 'true',
-            pagination: false,
-            cover: true,
-            arrows: true,
-            perMove: 1,
-            direction: 'ttb',
-            height: '100%',
-            interval: 3000,
-            speed: 1500,
-            updateOnMove: true,
-            resetProgress: false,
-            keyboard: true,
-            breakpoints: {
-                1199: {
-                    gap: '18px',
-                    direction: 'ttl',
-                    drag: 'true',
-                    perPage: 1,
-                    perMove: 1,
+        $('.brandSlide').owlCarousel({
+            loop: true,
+            rewind: false,
+            autoplay: true,
+            autoplayTimeout: 3500,
+            autoplayHoverPause: true,
+            responsiveClass: true,
+            nav: false,
+            dots: false,
+            items: 2,
+            margin: 25,
+            responsive: {
+                390: {
+                    items: 3,
+                    margin: 15,
                 },
-                991: {
-                    gap: '18px',
-                    direction: 'ttl',
-                    drag: 'true',
-                    perPage: 2,
-                    perMove: 1,
+                576: {
+                    items: 3,
+                    margin: 20,
                 },
-                767: {
-                    gap: '15px',
-                    direction: 'ttl',
-                    drag: 'true',
-                    perPage: 1,
-                    perMove: 1,
+                768: {
+                    items: 4,
+                    margin: 30,
                 },
-                468: {
-                    gap: '12px',
-                    direction: 'ttl',
-                    drag: 'true',
-                    perPage: 1,
-                    perMove: 1,
+                992: {
+                    items: 5,
+                    margin: 15,
                 },
+                992: {
+                    items: 5,
+                    margin: 55,
+                },
+                1441: {
+                    items: 5,
+                    margin: 70,
+                },
+                1551: {
+                    items: 5,
+                    margin: 100,
+                },
+                1681: {
+                    items: 5,
+                    margin: 130,
+                }
             }
         });
-        newsSplide.mount();
-    //Customer Slider
+
+        $('.blogSlide').owlCarousel({
+            loop: true,
+            rewind: false,
+            autoplay: true,
+            autoplayTimeout: 3500,
+            autoplayHoverPause: true,
+            responsiveClass: true,
+            nav: false,
+            dots: false,
+            items: 1.1,
+            margin: 12,
+            responsive: {
+                468: {
+                    items: 1.2,
+                    margin: 10,
+                },
+                576: {
+                    items: 1.4,
+                    margin: 13,
+                },
+                768: {
+                    items: 2,
+                    margin: 12,
+                },
+                992: {
+                    items: 2,
+                    margin: 15,
+                },
+                1200: {
+                    items: 3,
+                    margin: 15,
+                },
+                1441: {
+                    items: 3,
+                    margin: 26,
+                },
+                1551: {
+                    items: 3,
+                    margin: 34,
+                },
+                1681: {
+                    items: 3,
+                    margin: 40,
+                }
+            }
+        });
+
+
     </script>
 
 

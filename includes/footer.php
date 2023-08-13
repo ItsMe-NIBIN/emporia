@@ -1,95 +1,34 @@
 <footer>
-    <div class="container">
-        <div class="topFooter">
+    <div class="topFooter">
+        <div class="container">
             <div class="row">
-                <div class="col-lg-3 col-md-5 col-sm-4">
-                    <div class="descSec">
-                        <a href="javascript:void(0);" class="logoSec">
-                            <img src="assets/images/logo.svg" alt="">
-                        </a>
-                        <p>​#101, Oxford Towers,
-                            139, HAL Old Airport Rd,
-                            Kodihalli, Bengaluru,
-                            Karnataka - 560008</p>
-                        <ul>
-                            <li>
-                                <a href="tel:+919643203209">
-                                    <svg viewBox="0 0 19.326 19.326">
-                                        <path id="phone-call_3_" data-name="phone-call (3)"
-                                            d="M19.7,14.914c-.053-.042-3.888-2.806-4.94-2.608-.5.089-.79.432-1.366,1.118-.093.111-.316.376-.489.565a8.063,8.063,0,0,1-1.064-.433A8.825,8.825,0,0,1,7.773,9.485,8.025,8.025,0,0,1,7.34,8.421c.189-.174.455-.4.568-.492.683-.573,1.026-.861,1.115-1.364.182-1.044-2.58-4.9-2.609-4.94A1.475,1.475,0,0,0,5.316,1C4.2,1,1,5.147,1,5.845c0,.041.059,4.166,5.146,9.341,5.17,5.081,9.294,5.14,9.335,5.14.7,0,4.845-3.2,4.845-4.316a1.471,1.471,0,0,0-.622-1.1Z"
-                                            transform="translate(-1 -1)" />
-                                    </svg>
-                                    <span>+919643203209</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="mailto:info@clearbiz.com">
-                                    <svg viewBox="0 0 21.268 15.929">
-                                        <path id="Path_1041" data-name="Path 1041"
-                                            d="M12.412,177.313a3.2,3.2,0,0,1-3.555,0L.142,171.5q-.073-.048-.142-.1v9.521a1.957,1.957,0,0,0,1.958,1.958H19.31a1.957,1.957,0,0,0,1.958-1.958V171.4c-.046.035-.093.068-.142.1Z"
-                                            transform="translate(0 -166.952)" />
-                                        <path id="Path_1042" data-name="Path 1042"
-                                            d="M.833,67.78l8.715,5.81a1.953,1.953,0,0,0,2.172,0l8.715-5.81a1.866,1.866,0,0,0,.833-1.557,1.959,1.959,0,0,0-1.957-1.957H1.957A1.96,1.96,0,0,0,0,66.224,1.866,1.866,0,0,0,.833,67.78Z"
-                                            transform="translate(0 -64.266)" />
-                                    </svg>
-                                    <span>info@clearbiz.com</span>
-                                </a>
-                            </li>
-                        </ul>
+                <div class="col-xl-5 col-lg-4 col-sm-5">
+                    <div class="logoBx">
+                        <img src="assets/images/logo.png" alt="Logo" width="195" height="34" class="lazy" loading="lazy"
+                            data-src="assets/images/logo.png">
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-4 col-6">
+                <div class="col-xl-2 col-lg-2 col-sm-4">
                     <div class="linkSec">
-                        <div class="head">Quick Links</div>
+                        <div class="footHead">COMPANY</div>
                         <ul>
                             <li>
-                                <a href="javascript:void(0);">Be A Business Owner</a>
+                                <a href="javascript:void(0);">Home</a>
                             </li>
-                            <li>
-                                <a href="javascript:void(0);">Registrations</a>
-                            </li>
-                            <li>
-                                <a href="javascript:void(0);">Returns</a>
-                            </li>
-                            <li>
-                                <a href="javascript:void(0);">Other Compliances</a>
-                            </li>
-                            <li>
-                                <a href="javascript:void(0);">Loans</a>
-                            </li>
-                            <li>
-                                <a href="javascript:void(0);">Audits</a>
-                            </li>
-                            <li>
-                                <a href="javascript:void(0);">Professional Certifications</a>
-                            </li>
-                            <li>
-                                <a href="javascript:void(0);">Trade Mark</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-3 col-sm-4 col-6">
-                    <div class="linkSec">
-                        <div class="head">Company Links</div>
-                        <ul>
                             <li>
                                 <a href="javascript:void(0);">About Us</a>
-                            </li>
-                            <li>
-                                <a href="javascript:void(0);">Blogs</a>
-                            </li>
-                            <li>
-                                <a href="javascript:void(0);">Privacy Policy</a>
-                            </li>
-                            <li>
-                                <a href="javascript:void(0);">FAQ</a>
                             </li>
                             <li>
                                 <a href="javascript:void(0);">Terms & Conditions</a>
                             </li>
                             <li>
-                                <a href="javascript:void(0);">Careers</a>
+                                <a href="javascript:void(0);">Privacy Policy</a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0);">News</a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0);">Blog</a>
                             </li>
                             <li>
                                 <a href="javascript:void(0);">Contact Us</a>
@@ -97,61 +36,104 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-12 col-sm-12">
-                    <div class="socialSec">
-                        <div class="newsLetter">
-                            <div class="head">Subscribe to Newsletter</div>
-                            <form action="javascript:void(0);">
-                                <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Enter Your Email id" required>
-                                    <button class="submitBtn">
-                                        <svg viewBox="0 0 22.8 22.3">
-                                            <g id="Layer_2_00000003088042299869878250000014105957992611245451_"
-                                                transform="translate(-19.901 -6.083) rotate(-43)">
-                                                <g id="Social_Icon" transform="translate(-0.018 29.2)">
-                                                    <path id="PaperPlane" class="st0" d="M6.1-5.4c-1.2,0-2.3,1-2.3,2.3c0,0.4,0.1,0.7,0.3,1L7,3.4l9.7,1.1L7,5.6l-2.9,5.5
-                                                    c-0.6,1.1-0.2,2.5,1,3.1c0.6,0.3,1.3,0.3,1.9,0.1l17.9-7.7C26,6,26.5,4.7,26,3.6c-0.2-0.5-0.6-0.9-1.1-1.1L7-5.3
-                                                    C6.7-5.4,6.4-5.4,6.1-5.4L6.1-5.4z" />
-                                                </g>
-                                            </g>
-                                        </svg>
-                                    </button>
-                                    <div class="help-block d-none">Invalid Input</div>
-                                </div>
-                            </form>
+                <div class="col-xl-2 col-lg-2 col-sm-3">
+                    <div class="linkSec">
+                        <div class="footHead">SERVICES</div>
+                        <ul>
+                            <li>
+                                <a href="javascript:void(0);">OS & E</a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0);">FF & E</a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0);">F & B</a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0);">Retail</a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0);">Sustainability</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-sm-12">
+                    <div class="footHead">GEt IN Touch With US</div>
+                    <div class="contactSec">
+                        <p>Al Ghusais Area # 5, Near Tasjeel Eppco
+                            Next to Emirates, Logistics Ghusais
+                            Dubai, UAE</p>
+                        <ul>
+                            <li>
+                                <a href="tel:+97142026500" class="num">+971 4 202 6500</a>
+                            </li>
+                            <li>
+                                <a href="mailto:sales01.emporia@lalsgroup.com">sales01.emporia@lalsgroup.com</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="connectSec">
+                        <div class="lftSec">
+                            <p>CONNECT</p>
                         </div>
-                        <div class="connect">
-                            <div class="head">Connect With Us</div>
+                        <div class="ritSec">
                             <ul>
                                 <li>
                                     <a href="javascript:void(0);">
-                                        <svg id="facebook" viewBox="0 0 11.535 20.323">
-                                            <path id="facebook"
-                                                d="M8.711,5.03C8.739,5,8.868,4.9,9.378,4.9h1.671a.987.987,0,0,0,.986-.986V.99A.987.987,0,0,0,11.051,0L8.568,0A5.108,5.108,0,0,0,4.8,1.461,5.363,5.363,0,0,0,3.384,5.3V6.879h-1.9A.987.987,0,0,0,.5,7.865V11.01A.987.987,0,0,0,1.486,12h1.9v7.341a.987.987,0,0,0,.986.986H7.625a.987.987,0,0,0,.986-.986V12h2.321a.987.987,0,0,0,.986-.986V7.865A.989.989,0,0,0,11.411,7a1,1,0,0,0-.488-.124H8.611V5.634c0-.406.055-.552.1-.6Zm0,0"
-                                                transform="translate(-0.5 0)" />
+                                        <svg width="17.14" height="17.14" viewBox="0 0 17.14 17.14">
+                                            <defs>
+                                                <clipPath id="clip-path">
+                                                    <rect id="Rectangle_93" data-name="Rectangle 93" width="17.14"
+                                                        height="17.14" transform="translate(0 0)" />
+                                                </clipPath>
+                                            </defs>
+                                            <g id="Group_179" data-name="Group 179" transform="translate(0 0)"
+                                                clip-path="url(#clip-path)">
+                                                <path id="Path_142" data-name="Path 142"
+                                                    d="M14.963,0H2.21A2.21,2.21,0,0,0,0,2.21V14.966a2.21,2.21,0,0,0,2.21,2.207H9.174V10.532H6.943v-2.6H9.174V6.021A3.123,3.123,0,0,1,12.508,2.6a18.852,18.852,0,0,1,2,.1V5.014H13.142c-1.077,0-1.285.513-1.285,1.261V7.933h2.576l-.335,2.6H11.857v6.641h3.106a2.21,2.21,0,0,0,2.21-2.21V2.21A2.21,2.21,0,0,0,14.963,0"
+                                                    transform="translate(-0.036 -0.017)" />
+                                            </g>
                                         </svg>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="javascript:void(0);">
-                                        <svg id="instagram" viewBox="0 0 20.655 20.655">
+                                        <svg id="twitter" viewBox="0 0 374.3 382.1">
+                                            <path d="M371.6,377.9c-22.1-32.3-44.3-64.5-66.4-96.8c-24.8-36.1-49.6-72.2-74.5-108.3l0,0l-6.6-10.7l4-4.9v0
+                                            c6.6-7.4,12.9-15,19.4-22.6c36.3-42.2,72.7-84.5,109-126.7l0,0l7.2-7.9l-7.9,0c-5.7,0-11.4,0-17.1,0v0h-8.3l-3,3.4l0,0
+                                            c-36.8,43-73.7,85.9-110.5,128.9l0,0l-7.9,8.8l-6.1-8.8l0,0c-6.3-9.3-12.7-18.6-19.1-27.9c-21.6-31.5-43.2-62.9-64.6-94.4l-6.3-10
+                                            L93.7,0.2c-3.5,0-7-0.1-10.6-0.1c-17,0-33.9,0-50.9,0l0,0H0l9.3,12.2c1,1.5,2.1,2.9,3.1,4.4c30.2,44.1,60.5,88.1,90.7,132.2
+                                            c12.9,18.7,25.8,37.4,38.6,56.2l5.6,8.4l-3.9,4.5l0,0c-43.5,50.3-86.8,100.6-130.2,151c-3.5,4.1-6.9,8.3-10.9,13.2
+                                            c10.2,0,19.4,0,28.5,0l0,0h4.4l4.9-6c3.2-3.7,6.3-7.4,9.5-11.1c33.8-39.4,67.7-78.8,101.4-118.2v0l10.8-12.6l4.7,6.6l0,0
+                                            c28.5,41.7,57.1,83.3,85.6,124.9l10.8,16.2l5,0l0,0c0,0,0.1,0,0.1,0c1.7,0,3.5,0,5.2,0l90.7,0c3.3,0,6.8,0,10.4,0
+                                            C373,380.1,372.4,379,371.6,377.9z M315.7,359.3c-1,0-2.1,0-3.1,0l0,0h-0.9c-1.4,0-2.9,0-4.3,0h-27.2l-19.9-26.6h0
+                                            c-53.7-77.6-107.9-154.8-161.9-232.1c-13.3-19-26.5-38.1-39.8-57.1l0,0L58.2,43L46,25.1h7.8l0-0.1c1.3,0,2.7,0,4,0
+                                            c11.3,0,22.6,0.1,33.9,0h4.8l7.2,10h0c14.8,21.2,29.6,42.3,44.4,63.5c30.2,43.2,60.4,86.5,90.6,129.8
+                                            c27.5,39.3,54.9,78.6,82.4,117.9l8.6,13L315.7,359.3L315.7,359.3z"></path>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);">
+                                        <svg width="17.394" height="17.395" viewBox="0 0 17.394 17.395">
                                             <g id="Group_183" data-name="Group 183" transform="translate(0)">
                                                 <g id="Group_182" data-name="Group 182" transform="translate(0)">
                                                     <path id="Path_143" data-name="Path 143"
-                                                        d="M15.5,0H5.169A5.179,5.179,0,0,0,0,5.164V15.492a5.18,5.18,0,0,0,5.164,5.164H15.5a5.18,5.18,0,0,0,5.164-5.164V5.164A5.179,5.179,0,0,0,15.5,0Zm3.442,15.492A3.446,3.446,0,0,1,15.5,18.934H5.169a3.447,3.447,0,0,1-3.442-3.442V5.164A3.446,3.446,0,0,1,5.169,1.721H15.5a3.446,3.446,0,0,1,3.442,3.442V15.492Z"
-                                                        transform="translate(-0.005)" />
+                                                        d="M13.05,0h-8.7A4.362,4.362,0,0,0,0,4.348v8.7a4.362,4.362,0,0,0,4.348,4.348h8.7A4.362,4.362,0,0,0,17.4,13.046v-8.7A4.362,4.362,0,0,0,13.05,0Zm2.9,13.046a2.9,2.9,0,0,1-2.9,2.9h-8.7a2.9,2.9,0,0,1-2.9-2.9v-8.7a2.9,2.9,0,0,1,2.9-2.9h8.7a2.9,2.9,0,0,1,2.9,2.9v8.7Z"
+                                                        transform="translate(-0.005 0)" />
                                                 </g>
                                             </g>
-                                            <g id="Group_185" data-name="Group 185" transform="translate(14.631 3.442)">
+                                            <g id="Group_185" data-name="Group 185" transform="translate(12.321 2.899)">
                                                 <g id="Group_184" data-name="Group 184">
-                                                    <circle id="Ellipse_14" data-name="Ellipse 14" cx="1.291" cy="1.291"
-                                                        r="1.291" />
+                                                    <circle id="Ellipse_14" data-name="Ellipse 14" cx="1.087" cy="1.087"
+                                                        r="1.087" />
                                                 </g>
                                             </g>
-                                            <g id="Group_187" data-name="Group 187" transform="translate(5.164 5.164)">
+                                            <g id="Group_187" data-name="Group 187" transform="translate(4.348 4.348)">
                                                 <g id="Group_186" data-name="Group 186">
                                                     <path id="Path_144" data-name="Path 144"
-                                                        d="M107.569,102.4a5.164,5.164,0,1,0,5.164,5.164A5.163,5.163,0,0,0,107.569,102.4Zm0,8.607a3.443,3.443,0,1,1,3.442-3.443A3.443,3.443,0,0,1,107.569,111.007Z"
+                                                        d="M106.753,102.4a4.349,4.349,0,1,0,4.348,4.348A4.348,4.348,0,0,0,106.753,102.4Zm0,7.248a2.9,2.9,0,1,1,2.9-2.9A2.9,2.9,0,0,1,106.753,109.648Z"
                                                         transform="translate(-102.405 -102.4)" />
                                                 </g>
                                             </g>
@@ -160,43 +142,37 @@
                                 </li>
                                 <li>
                                     <a href="javascript:void(0);">
-                                        <svg id="twitter" viewBox="0 0 22.294 18.864">
+                                        <svg width="16.568" height="15.836" viewBox="0 0 16.568 15.836">
                                             <defs>
                                                 <clipPath id="clip-path">
-                                                    <rect id="Rectangle_92" data-name="Rectangle 92" width="22.294"
-                                                        height="18.864" transform="translate(0 0)" />
+                                                    <rect id="Rectangle_91" data-name="Rectangle 91" width="16.568"
+                                                        height="15.836" />
                                                 </clipPath>
                                             </defs>
-                                            <g id="Group_177" data-name="Group 177" transform="translate(0 0)"
-                                                clip-path="url(#clip-path)">
-                                                <path id="Path_141" data-name="Path 141"
-                                                    d="M22.022,2.118a9.413,9.413,0,0,1-2.6.713,4.489,4.489,0,0,0,1.986-2.5,9.022,9.022,0,0,1-2.863,1.093,4.514,4.514,0,0,0-7.809,3.087,4.649,4.649,0,0,0,.1,1.029A12.779,12.779,0,0,1,1.533.823,4.516,4.516,0,0,0,2.921,6.857,4.459,4.459,0,0,1,.881,6.3v.05A4.535,4.535,0,0,0,4.5,10.786a4.506,4.506,0,0,1-1.184.149,3.992,3.992,0,0,1-.855-.077A4.558,4.558,0,0,0,6.678,14a9.071,9.071,0,0,1-5.6,1.925A8.457,8.457,0,0,1,0,15.866a12.71,12.71,0,0,0,6.926,2.026A12.761,12.761,0,0,0,19.775,5.046c0-.2-.007-.392-.017-.584a9.006,9.006,0,0,0,2.263-2.344"
-                                                    transform="translate(-0.343 0.486)" />
+                                            <g id="Group_175" data-name="Group 175" transform="translate(0)">
+                                                <g id="Group_174" data-name="Group 174" clip-path="url(#clip-path)">
+                                                    <path id="Path_139" data-name="Path 139"
+                                                        d="M2.009,0a1.851,1.851,0,1,0-.047,3.692h.023A1.852,1.852,0,1,0,2.009,0"
+                                                        transform="translate(0)" />
+                                                    <rect id="Rectangle_90" data-name="Rectangle 90" width="3.552"
+                                                        height="10.685" transform="translate(0.21 5.151)" />
+                                                    <path id="Path_140" data-name="Path 140"
+                                                        d="M227.751,189.108a4.45,4.45,0,0,0-3.2,1.8v-1.55H221v10.685h3.552v-5.967a2.435,2.435,0,0,1,.117-.867,1.944,1.944,0,0,1,1.822-1.3c1.285,0,1.8.98,1.8,2.416v5.716h3.551v-6.127c0-3.282-1.752-4.809-4.089-4.809"
+                                                        transform="translate(-215.272 -184.208)" />
+                                                </g>
                                             </g>
                                         </svg>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="javascript:void(0);">
-                                        <svg id="Linkedin" viewBox="0 0 21.208 21.208">
-                                            <g id="_x31_0.Linkedin" transform="translate(-10 -10)">
-                                                <path id="Path_233" data-name="Path 233"
-                                                    d="M52.006,49.8V42.034c0-3.817-.822-6.734-5.276-6.734a4.6,4.6,0,0,0-4.162,2.28h-.053V35.645H38.3V49.8h4.4V42.776c0-1.856.345-3.632,2.625-3.632,2.253,0,2.28,2.094,2.28,3.738v6.893h4.4Z"
-                                                    transform="translate(-20.798 -18.593)" />
-                                                <path id="Path_234" data-name="Path 234" d="M11.3,36.6h4.4V50.757H11.3Z"
-                                                    transform="translate(-0.955 -19.548)" />
-                                                <path id="Path_235" data-name="Path 235"
-                                                    d="M12.545,10a2.558,2.558,0,1,0,2.545,2.545A2.546,2.546,0,0,0,12.545,10Z" />
-                                            </g>
-                                        </svg>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="javascript:void(0);">
-                                        <svg id="youtube" viewBox="0 0 26.14 18.89">
-                                            <path id="youtube"
-                                                d="M13.067,19.389H13.06c-.789-.005-7.762-.069-9.737-.6A4.04,4.04,0,0,1,.48,15.945,29.649,29.649,0,0,1,0,9.97,30.207,30.207,0,0,1,.479,3.949l0-.006A4.125,4.125,0,0,1,3.32,1.084l.01,0C5.283.568,12.27.505,13.06.5h.014c.791.005,7.782.069,9.739.6A4.039,4.039,0,0,1,25.653,3.94a28.763,28.763,0,0,1,.481,6.052,29.73,29.73,0,0,1-.479,5.967v.006a4.041,4.041,0,0,1-2.844,2.841l-.006,0c-1.953.513-8.94.576-9.73.582h-.007ZM2.453,4.473a29.211,29.211,0,0,0-.411,5.484v.027a27.449,27.449,0,0,0,.411,5.433,1.991,1.991,0,0,0,1.4,1.4c1.458.394,7.137.518,9.212.533,2.081-.015,7.769-.135,9.215-.514a1.993,1.993,0,0,0,1.4-1.4A27.543,27.543,0,0,0,24.092,10c0-.011,0-.022,0-.032a26.584,26.584,0,0,0-.409-5.492v0a1.993,1.993,0,0,0-1.4-1.4c-1.443-.395-7.132-.518-9.212-.533-2.08.015-7.762.135-9.213.513a2.048,2.048,0,0,0-1.4,1.418ZM24.668,15.7h0Zm-14.2-1.62V5.809l7.147,4.135Zm0,0"
-                                                transform="translate(0.002 -0.5)" />
+                                        <svg width="19.461" height="19.709" viewBox="0 0 19.461 19.709">
+                                            <path id="Path_145" data-name="Path 145"
+                                                d="M150.6,139.027c-.1-.055-.209-.118-.343-.2-.075-.045-.169-.107-.268-.172a2.66,2.66,0,0,0-1.228-.573.6.6,0,0,0-.217.039,2.1,2.1,0,0,0-.755.7,3.692,3.692,0,0,1-.277.323,5.452,5.452,0,0,1-2.649-2.65,3.675,3.675,0,0,1,.325-.279,2.1,2.1,0,0,0,.694-.753c.143-.37-.119-.812-.534-1.445-.065-.1-.127-.194-.172-.268-.081-.134-.143-.246-.2-.344-.226-.4-.376-.668-.938-.668a2.2,2.2,0,0,0-1.23.687,2.333,2.333,0,0,0-.787,1.617,7.111,7.111,0,0,0,2.27,4.664l.008.006a7.1,7.1,0,0,0,4.665,2.267h0a2.329,2.329,0,0,0,1.616-.784,2.2,2.2,0,0,0,.687-1.226C151.272,139.4,151.006,139.253,150.6,139.027Z"
+                                                transform="translate(-136.704 -127.777)" />
+                                            <path id="Path_146" data-name="Path 146"
+                                                d="M73.744,61.875a9.985,9.985,0,0,0-9.932-9.806,9.4,9.4,0,0,0-9.421,8.675,9.884,9.884,0,0,0,1.527,6.088l-1.634,4.945h.055l4.747-1.827a9.82,9.82,0,0,0,5.207,1.48h0a9.387,9.387,0,0,0,9.451-9.556Zm-3.431,6.148a8.449,8.449,0,0,1-6.02,2.474,8.883,8.883,0,0,1-4.9-1.474.479.479,0,0,0-.45-.041l-3.323,1.41L56.9,66.938a.479.479,0,0,0-.052-.434,8.7,8.7,0,0,1,.944-11,8.45,8.45,0,0,1,6.021-2.475,9.028,9.028,0,0,1,8.975,8.862A8.443,8.443,0,0,1,70.313,68.023Z"
+                                                transform="translate(-54.283 -52.069)" />
                                         </svg>
                                     </a>
                                 </li>
@@ -206,12 +182,18 @@
                 </div>
             </div>
         </div>
-        <div class="bottomFooter">
-            <div class="lftSec">
-                <p>Copyright © <?= date('Y') ?> Clearbiz. All Rights Reserved.</p>
-            </div>
-            <div class="ritSec">
-                <p>Designed By: <a href="https://www.intersmartsolution.com/" target="blank">Intersmart</a></p>
+    </div>
+    <div class="btmFooter">
+        <div class="container">
+            <div class="cntSec">
+                <div class="lftSec">
+                    <p>Copyright ©
+                        <?php echo date("Y"); ?> Emporia. All Rights Reserved.
+                    </p>
+                </div>
+                <div class="ritSec">
+                    <p>Designed By: <a href="https://www.intersmartsolution.com/" target="blank">INTER SMART</a></p>
+                </div>
             </div>
         </div>
     </div>

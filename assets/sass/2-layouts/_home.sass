@@ -1,11 +1,36 @@
 #aboutSec
     background-color: $black
+    position: relative
+    @media only screen and (max-width: 991px)
+        padding: 78px 0
+    @media only screen and (max-width: 575px)
+        padding: 58px 0
+    &::before
+        position: absolute
+        content: ""
+        width: 185px
+        height: 100%
+        top: 0
+        right: 0
+        background-image: url("../images/abtBefore1.png")
+        background-repeat: no-repeat
+        background-size: cover
+        background-position: center
+        @media only screen and (min-width: 576px)
+            width: 305px
+        @media only screen and (min-width: 1200px)
+            width: 370px
+        @media only screen and (min-width: 1441px)
+            width: 440px
+        @media only screen and (min-width: 1681px)
+            width: 739px
     .custom_container
         margin-right: auto
         padding-right: 15px
-        padding-left: 0
+        padding-left: 15px
         @media only screen and ( min-width: 992px )
             width: calc(100% - ((100% - 1050px)/ 2))
+            padding-left: 0
         @media only screen and ( min-width: 1200px )
             width: calc(100% - ((100% - 1180px)/ 2))
         @media only screen and ( min-width: 1441px )
@@ -13,20 +38,49 @@
         @media only screen and ( min-width: 1560px )
             width: calc(100% - ((100% - 1524px)/ 2))
     .abtContent
-        align-items: center
         @include display
-        &>*
-            width: calc( 100% / 2 )
         .abtConLft
+            width: 100%
+            @media only screen and (min-width: 992px)
+                width: 42%
+            @media only screen and (min-width: 1200px)
+                width: 50%
+            @media only screen and (max-width: 991px)
+                max-width: 470px
+                margin: auto
+                margin-bottom: 40px
             img
                 @include imgFit
         .abtConRit
-            padding-left: 128px
+            width: 100%
+            padding: 0px 15px
+            display: flex
+            flex-wrap: wrap
+            align-content: center
+            @media only screen and (min-width: 992px)
+                width: 58%
+                padding: 55px 0 50px 60px
+            @media only screen and (min-width: 1200px)
+                width: 50%
+            @media only screen and (min-width: 1441px)
+                padding: 55px 0 60px 128px
             .MainHead
-                margin-bottom: 58px
+                margin-bottom: 24px
+                @media only screen and (min-width: 576px)
+                    margin-bottom: 30px
+                @media only screen and (min-width: 1200px)
+                    margin-bottom: 35px
+                @media only screen and (min-width: 1441px)
+                    margin-bottom: 45px
+                @media only screen and (min-width: 1681px)
+                    margin-bottom: 58px
                 .Head
                     color: $white
-                    margin-bottom: 32px
+                    margin-bottom: 18px
+                    @media only screen and (min-width: 576px)
+                        margin-bottom: 25px
+                    @media only screen and (min-width: 1200px)
+                        margin-bottom: 32px
             p
                 color: #676767
                 margin-bottom: 8px
@@ -34,40 +88,130 @@
                     margin-bottom: 0
             .learnbtn
                 background-color: $white
-                width: 194px
-                height: 48px
-                font-size: 13px
-                line-height: 75px
-                letter-spacing: 0.7
+                width: 155px
+                height: 40px
+                font-size: 11px
+                line-height: 62px
+                letter-spacing: 0.7px
                 color: #333333
                 text-transform: uppercase
+                @media only screen and (min-width: 576px)
+                    width: 180px
+                    height: 46px
+                    font-size: 12px
+                    line-height: 75px
+                @media only screen and (min-width: 1200px)
+                    width: 194px
+                    height: 48px
+                    font-size: 13px
+                &:hover
+                    border: 1px solid #fff
 
 #globalSec
-    padding: 181px 0
+    padding: 52px 0
+    @media only screen and (min-width: 576px)
+        padding: 68px 0
+    @media only screen and (min-width: 992px)
+        padding: 86px 0
+    @media only screen and (min-width: 1200px)
+        padding: 105px 0
+    @media only screen and (min-width: 1441px)
+        padding: 125px 0
+    @media only screen and (min-width: 1551px)
+        padding: 148px 0
+    @media only screen and (min-width: 1681px)
+        padding: 181px 0
     .MainHead
-        margin-bottom: 126px
+        margin-bottom: 38px
+        @media only screen and (min-width: 576px)
+            margin-bottom: 52px
+        @media only screen and (min-width: 992px)
+            margin-bottom: 65px
+        @media only screen and (min-width: 1200px)
+            margin-bottom: 75px
+        @media only screen and (min-width: 1441px)
+            margin-bottom: 95px
+        @media only screen and (min-width: 1551px)
+            margin-bottom: 110px
+        @media only screen and (min-width: 1681px)
+            margin-bottom: 126px
     .countListing
         @include display
+        @media only screen and (max-width: 767px)
+            margin: -15px
+        @media only screen and (max-width: 575px)
+            margin: -12px
         &>*
-            width: calc( 100% / 4 )
+            width: calc( 100% / 2 )
+            @media only screen and (min-width: 768px)
+                width: calc( 100% / 4 )
+            @media only screen and (max-width: 767px)
+                padding: 15px
+            @media only screen and (max-width: 575px)
+                padding: 12px
             &:first-child
                 .countBx
-                    padding-left: 0
                     border-left: 0
+                    @media only screen and (min-width: 768px)
+                        padding-left: 0
+            &:nth-child(3)
+                .countBx
+                    @media only screen and (max-width: 767px)
+                        border-left: 0
         .countBx
-            padding-left: 140px
+            padding-left: 30px
             border-left: 1px solid rgba(0, 0, 0, 0.1)
+            @media only screen and (min-width: 576px)
+                padding-left: 45px
+            @media only screen and (min-width: 992px)
+                padding-left: 75px
+            @media only screen and (min-width: 1200px)
+                padding-left: 92px
+            @media only screen and (min-width: 1441px)
+                padding-left: 120px
+            @media only screen and (min-width: 1681px)
+                padding-left: 140px
             .count
-                font-size: 40px
-                line-height: 48px
-                margin-bottom: 7px
+                font-size: 23px
+                line-height: 28px
+                margin-bottom: 4px
                 color: $black
-
+                @media only screen and (min-width: 576px)
+                    font-size: 25px
+                    line-height: 30px
+                    margin-bottom: 5px
+                @media only screen and (min-width: 992px)
+                    font-size: 28px
+                    line-height: 34px
+                @media only screen and (min-width: 1200px)
+                    font-size: 32px
+                    line-height: 40px
+                @media only screen and (min-width: 1441px)
+                    font-size: 36px
+                    line-height: 44px
+                    margin-bottom: 6px
+                @media only screen and (min-width: 1551px)
+                    font-size: 40px
+                    line-height: 48px
+                    margin-bottom: 7px
             .txt
-                font-size: 16px
-                line-height: 25px
+                font-size: 12px
+                line-height: 19px
                 color: $black
                 text-transform: uppercase
+                @media only screen and (min-width: 576px)
+                    font-size: 13px
+                    line-height: 20px
+                @media only screen and (min-width: 992px)
+                    font-size: 14px
+                    line-height: 20px
+                @media only screen and (min-width: 1200px)
+                    font-size: 15px
+                    line-height: 22px
+                @media only screen and (min-width: 1441px)
+                    font-size: 16px
+                    line-height: 25px
+
 
 #categorySec
     position: relative
@@ -95,41 +239,138 @@
         z-index: 2
         @include display
         &>*
-            width: calc( 100% / 5 )
+            width: 100%
+            @media only screen and (min-width: 992px)
+                width: calc( 100% / 5 )
             &:not(:last-of-type)
-                border-right: 1px solid rgba(255, 255, 255, 0.3)
+                border-bottom: 1px solid rgba(255, 255, 255, 0.3)
+                @media only screen and (min-width: 992px)
+                    border-right: 1px solid rgba(255, 255, 255, 0.3)
         .catBx
-            padding: 488px 58px 118px
+            padding: 40px 25px 34px
             display: block
+            @media only screen and (min-width: 992px)
+                padding: 160px 12px 36px
+            @media only screen and (min-width: 1200px)
+                padding: 226px 16px 42px
+            @media only screen and (min-width: 1441px)
+                padding: 280px 28px 50px
+            @media only screen and (min-width: 1551px)
+                padding: 335px 32px 65px
+            @media only screen and (min-width: 1681px)
+                padding: 488px 58px 118px
+            @media only screen and (max-width: 991px)
+                text-align: center
             .title
-                font-size: 24px
-                line-height: 29px
-                margin-bottom: 350px
+                font-size: 20px
+                line-height: 20px
+                margin-bottom: 28px
                 color: $white
                 text-transform: uppercase
                 transition: 0.4s all
+                @media only screen and (min-width: 576px)
+                    margin-bottom: 45px
+                @media only screen and (min-width: 992px)
+                    font-size: 17px
+                    line-height: 20px
+                    margin-bottom: 140px
+                @media only screen and (min-width: 1200px)
+                    font-size: 19px
+                    line-height: 22px
+                    margin-bottom: 190px
+                @media only screen and (min-width: 1441px)
+                    font-size: 22px
+                    line-height: 26px
+                    margin-bottom: 235px
+                @media only screen and (min-width: 1551px)
+                    font-size: 23px
+                    line-height: 28px
+                    margin-bottom: 290px
+                @media only screen and (min-width: 1681px)
+                    font-size: 24px
+                    line-height: 29px
+                    margin-bottom: 350px
             .learnLink
                 display: block
-                font-size: 13px
-                line-height: 25px
+                font-size: 12px
+                line-height: 20px
                 color: $white
                 text-transform: uppercase
                 transition: 0.4s all
+                @media only screen and (min-width: 576px)
+                    font-size: 13px
+                    line-height: 25px
             &:hover
                 .title, .learnLink
                     color: rgba(255, 255, 255, 0.3)
 
 #testimonialSec
-    padding: 143px 0
+    padding: 55px 0
+    position: relative
+    @media only screen and (min-width: 576px)
+        padding: 74px 0
+    @media only screen and (min-width: 1200px)
+        padding: 98px 0
+    @media only screen and (min-width: 1441px)
+        padding: 120px 0
+    @media only screen and (min-width: 1551px)
+        padding: 143px 0
+    &::before
+        position: absolute
+        content: ""
+        width: 280px
+        height: 205px
+        top: 105px
+        left: -128px
+        background-image: url("../images/testimonialBefore.png")
+        background-repeat: no-repeat
+        background-size: cover
+        background-position: center
+        @media only screen and (min-width: 468px)
+            width: 350px
+            height: 240px
+            top: 95px
+            left: -135px
+        @media only screen and (min-width: 576px)
+            width: 420px
+            height: 290px
+            top: 130px
+            left: -145px
+        @media only screen and (min-width: 992px)
+            width: 470px
+            height: 320px
+        @media only screen and (min-width: 1200px)
+            width: 530px
+            height: 380px
+        @media only screen and (min-width: 1441px)
+            width: 580px
+            height: 450px
+            top: 100px
+            left: -150px
+        @media only screen and (min-width: 1551px)
+            width: 630px
+            height: 520px
+        @media only screen and (min-width: 1681px)
+            width: 660px
+            height: 586px
     .testiContents
         max-width: 1018px
         margin: auto
         .MainHead
-            margin-bottom: 37px
-            .icon
-                max-width: 35px
-                margin: auto
+            margin-bottom: 30px
+            @media only screen and (min-width: 576px)
+                margin-bottom: 35px
+            @media only screen and (min-width: 1441px)
                 margin-bottom: 37px
+            .icon
+                max-width: 28px
+                margin: auto
+                margin-bottom: 22px
+                @media only screen and (min-width: 576px)
+                    max-width: 35px
+                    margin-bottom: 30px
+                @media only screen and (min-width: 1441px)
+                    margin-bottom: 37px
                 img
                     @include imgFit
         .testibx
@@ -143,65 +384,259 @@
                 line-clamp: 3
                 -webkit-box-orient: vertical
             .authorSec
-                margin-top: 61px
+                margin-top: 28px
+                @media only screen and (min-width: 576px)
+                    margin-top: 35px
+                @media only screen and (min-width: 1441px)
+                    margin-top: 45px
+                @media only screen and (min-width: 1551px)
+                    margin-top: 61px
                 .authorImg
-                    width: 76px
-                    height: 76px
+                    width: 64px
+                    height: 64px
                     border-radius: 50%
                     margin: auto
-                    margin-bottom: 22px
+                    margin-bottom: 15px
+                    @media only screen and (min-width: 576px)
+                        width: 72px
+                        height: 72px
+                        margin-bottom: 18px
+                    @media only screen and (min-width: 1441px)
+                        width: 76px
+                        height: 76px
+                        margin-bottom: 22px
                     img
                         @include imgFit
                 .authorName
-                    font-size: 20px
-                    line-height: 24px
-                    margin-bottom: 4px
+                    font-size: 17px
+                    line-height: 20px
+                    margin-bottom: 3px
                     color: #444444
                     text-align: center
+                    @media only screen and (min-width: 576px)
+                        font-size: 18px
+                        line-height: 22px
+                        margin-bottom: 4px
+                    @media only screen and (min-width: 1441px)
+                        font-size: 20px
+                        line-height: 24px
                 .authorPos
-                    font-size: 16px
-                    line-height: 25px
+                    font-size: 13px
+                    line-height: 20px
                     color: #676767
                     text-align: center
+                    @media only screen and (min-width: 576px)
+                        font-size: 14px
+                        line-height: 22px
+                    @media only screen and (min-width: 1441px)
+                        font-size: 16px
+                        line-height: 25px
 
 #projectSec
     background-color: #FBFBFB
-    padding: 88px 0 138px
+    padding: 56px 0 64px
+    @media only screen and (min-width: 576px)
+        padding: 72px 0 88px
+    @media only screen and (min-width: 1200px)
+        padding: 80px 0 104px
+    @media only screen and (min-width: 1551px)
+        padding: 84px 0 124px
+    @media only screen and (min-width: 1681px)
+        padding: 88px 0 138px
     .HeadSec
-        margin-bottom: 43px
+        margin-bottom: 20px
+        @media only screen and (min-width: 576px)
+            margin-bottom: 26px
+        @media only screen and (min-width: 1200px)
+            margin-bottom: 35px
+        @media only screen and (min-width: 1681px)
+            margin-bottom: 43px
     .projectsList
-        .row    
-            margin: -11px
+        .row
+            margin: -5px
+            @media only screen and (min-width: 768px)
+                margin: -6px
+            @media only screen and (min-width: 1200px)
+                margin: -8px
+            @media only screen and (min-width: 1441px)
+                margin: -9px
+            @media only screen and (min-width: 1551px)
+                margin: -10px
+            @media only screen and (min-width: 1681px)
+                margin: -11px
             &>*
-                padding: 11px
+                padding: 5px
+                @media only screen and (min-width: 768px)
+                    padding: 6px
+                @media only screen and (min-width: 1200px)
+                    padding: 8px
+                @media only screen and (min-width: 1441px)
+                    padding: 9px
+                @media only screen and (min-width: 1551px)
+                    padding: 10px
+                @media only screen and (min-width: 1681px)
+                    padding: 11px
         .projBx
             position: relative
             display: block
-            height: 100%
+            height: 295px
             overflow: hidden
+            @media only screen and (min-width: 768px)
+                height: 340px
+            @media only screen and (min-width: 1200px)
+                height: 382px
+            @media only screen and (min-width: 1441px)
+                height: 435px
+            @media only screen and (min-width: 1551px)
+                height: 492px
+            @media only screen and (min-width: 1681px)
+                height: 512px
             img
                 transition: 0.4s all
+                filter: grayscale(100%)
                 @include imgFit
             .cntSec
                 position: absolute
                 bottom: 0
                 left: 0
-                padding: 38px 48px
+                width: 100%
+                padding: 18px 16px
                 opacity: 0
                 transition: 0.4s all
+                @media only screen and (min-width: 1200px)
+                    padding: 24px 26px
+                @media only screen and (min-width: 1441px)
+                    padding: 32px 36px
+                @media only screen and (min-width: 1551px)
+                    padding: 36px 42px
+                @media only screen and (min-width: 1681px)
+                    padding: 38px 48px
                 .title
-                    font-size: 20px
-                    line-height: 24px
-                    margin-bottom: 8px
+                    font-size: 17px
+                    line-height: 20px
+                    margin-bottom: 5px
                     text-transform: uppercase
                     color: $white
+                    @media only screen and (min-width: 1200px)
+                        font-size: 18px
+                        line-height: 22px
+                        margin-bottom: 6px
+                    @media only screen and (min-width: 1441px)
+                        font-size: 20px
+                        line-height: 24px
+                        margin-bottom: 8px
                 .location
-                    font-size: 14px
-                    line-height: 16px
+                    font-size: 12px
+                    line-height: 13px
                     letter-spacing: 2px
                     color: rgba(255, 255,255 ,0.5 )
+                    @media only screen and (min-width: 1200px)
+                        font-size: 13px
+                        line-height: 14px
+                    @media only screen and (min-width: 1441px)
+                        font-size: 14px
+                        line-height: 16px
             &:hover
                 img
                     transform: scale(1.06)
+                    filter: none
                 .cntSec
                     opacity: 1
+
+#brandSec
+    padding: 42px 0
+    @media only screen and (min-width: 576px)
+        padding: 58px 0
+    @media only screen and (min-width: 1200px)
+        padding: 78px 0
+    @media only screen and (min-width: 1441px)
+        padding: 98px 0
+    @media only screen and (min-width: 1551px)
+        padding: 114px 0
+    @media only screen and (min-width: 1681px)
+        padding: 143px 0
+    .brandInner
+        padding: 0 15px
+        @media only screen and (min-width: 768px)
+            padding: 0 26px
+        @media only screen and (min-width: 1200px)
+            padding: 0 40px
+        @media only screen and (min-width: 1441px)
+            padding: 0 56px
+        @media only screen and (min-width: 1551px)
+            padding: 0 75px
+    .clientsBx
+        width: 100%
+        height: 100%
+        img
+            @include imgFit
+            object-fit: contain
+
+#blogSec
+    background-color: #FBFBFB
+    padding: 48px 0 58px
+    @media only screen and (min-width: 576px)
+        padding: 64px 0 84px
+    @media only screen and (min-width: 1441px)
+        padding: 70px 0 98px
+    @media only screen and (min-width: 1551px)
+        padding: 76px 0 118px
+    @media only screen and (min-width: 1681px)
+        padding: 80px 0 126px
+    .HeadSec
+        margin-bottom: 22px
+        @media only screen and (min-width: 468px)
+            margin-bottom: 28px
+        @media only screen and (min-width: 1441px)
+            margin-bottom: 35px
+        @media only screen and (min-width: 1551px)
+            margin-bottom: 42px
+        @media only screen and (min-width: 1681px)
+            margin-bottom: 53px
+    .blogSlide
+        position: relative
+        .owl-nav
+            display: block !important
+            margin-top: 0
+            @media only screen and (max-width: 1199px)
+                display: none !important
+            button
+                position: absolute
+                top: 42%
+                transform: translate( 0 , -50% )
+                width: 12px
+                height: 32px
+                margin: 0
+                background-repeat: no-repeat
+                background-size: contain
+                background-color: transparent
+                @media only screen and (min-width: 1260px)
+                    width: 14px
+                    height: 45px
+                span
+                    display: none
+                &.owl-prev
+                    background-image: url("../images/owl-arrow-left.svg")
+                    left: -25px
+                    @media only screen and (min-width: 1260px)
+                        left: -38px
+                    @media only screen and (min-width: 1441px)
+                        left: -50px
+                &.owl-next
+                    right: -25px
+                    background-image: url("../images/owl-arrow-right.svg")
+                    @media only screen and (min-width: 1260px)
+                        right: -38px
+                    @media only screen and (min-width: 1441px)
+                        right: -50px
+        .owl-stage-outer    
+            @media only screen and (max-width: 767px)
+                overflow: visible
+            .owl-item   
+                @media only screen and (max-width: 767px)
+                    opacity: 0
+                    transition: 0.4s all
+                &.active    
+                    @media only screen and (max-width: 767px)
+                        opacity: 1
+

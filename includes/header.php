@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -8,22 +9,10 @@
 
     <title>Emporia</title>
     <link rel="icon" href="assets/images/favicon.ico" sizes="any"><!-- 32×32 -->
-    <link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml"><!-- 192×192 -->
-    <link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png"><!-- 180×180 -->
     <link rel="manifest" href="assets/images/manifest.webmanifest">
 
     <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="assets/images/ms-icon-144x144.png">
-    <meta name="theme-color" content="#8C7BFF">
-
-    <!-- FONTS -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600;700;800;900&display=swap"
-        rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap"
-        rel="stylesheet">
+    <meta name="theme-color" content="#000">
 
     <!-- JQUERY --->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
@@ -49,10 +38,11 @@
 <body>
     <header id="Header">
         <section class="HeaderMenu">
-            <div class="container">
+            <div class="container1">
                 <div class="FlexRow">
-                    <a href="index.php" class="LogoSec">
-                        <img src="assets/images/logo.png" alt="Logo" width="179" height="111" class="lazy" loading="lazy" data-src="assets/images/logo.png">
+                    <a href="index1.php" class="LogoSec">
+                        <img src="assets/images/logo.png" alt="Logo" width="179" height="111" class="lazy"
+                            loading="lazy" data-src="assets/images/logo.png">
                     </a>
                     <div class="menuBx">
                         <div class="modal fade" id="HeaderPOP" tabindex="-1" role="dialog"
@@ -63,22 +53,25 @@
                                         <div class="accordion" id="AccordMenu">
                                             <div class="accordion-item">
                                                 <div class="accordion-header dropdown hasAccord">
-                                                    <a href="about.php"
-                                                        class="accordion-button <?= basename($_SERVER["SCRIPT_FILENAME"], '.php') == 'about' ? 'active' : '' ?>">
-                                                        Be A Business Owner
-                                                    </a>
                                                     <button class="accordion-button" type="button"
                                                         data-bs-toggle="collapse" data-bs-target="#collapseTwo"
                                                         aria-expanded="false" aria-controls="collapseTwo">
-                                                        <svg xmlns="http://www.w3.org/2000/svg"
-                                                            viewBox="0 0 492.004 492.004">
-                                                            <path
-                                                                d="M382.678,226.804L163.73,7.86C158.666,2.792,151.906,0,144.698,0s-13.968,2.792-19.032,7.86l-16.124,16.12
-                                                                c-10.492,10.504-10.492,27.576,0,38.064L293.398,245.9l-184.06,184.06c-5.064,5.068-7.86,11.824-7.86,19.028
-                                                                c0,7.212,2.796,13.968,7.86,19.04l16.124,16.116c5.068,5.068,11.824,7.86,19.032,7.86s13.968-2.792,19.032-7.86L382.678,265
-                                                                c5.076-5.084,7.864-11.872,7.848-19.088C390.542,238.668,387.754,231.884,382.678,226.804z">
-                                                            </path>
-                                                        </svg>
+                                                        Emporia
+                                                        <div class="arrowIcon">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" width="13.838"
+                                                                height="7.961" viewBox="0 0 13.838 7.961">
+                                                                <g id="next"
+                                                                    transform="translate(0.5 7.401) rotate(-90)">
+                                                                    <g id="Group_1877" data-name="Group 1877"
+                                                                        transform="translate(0 0)">
+                                                                        <path id="Path_459" data-name="Path 459"
+                                                                            d="M6.755,6.739.845,12.633a.5.5,0,0,1-.7-.7L5.7,6.389.146.846a.5.5,0,0,1,.7-.7l5.91,5.894a.5.5,0,0,1,0,.7Z"
+                                                                            fill="#fff" stroke="#fff"
+                                                                            stroke-width="1" />
+                                                                    </g>
+                                                                </g>
+                                                            </svg>
+                                                        </div>
                                                     </button>
                                                 </div>
                                                 <div id="collapseTwo" class="accordion-collapse collapse"
@@ -86,19 +79,16 @@
                                                     <div class="accordion-body">
                                                         <ul>
                                                             <li>
-                                                                <a href="javascript:void(0);">Private Limited Co</a>
+                                                                <a href="javascript:void(0);">Who We Are</a>
                                                             </li>
                                                             <li>
-                                                                <a href="javascript:void(0);">LLP</a>
+                                                                <a href="javascript:void(0);">About Us</a>
                                                             </li>
                                                             <li>
-                                                                <a href="javascript:void(0);">Sole Proprietorship</a>
+                                                                <a href="javascript:void(0);">Our Team</a>
                                                             </li>
                                                             <li>
-                                                                <a href="javascript:void(0);">OPC</a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="javascript:void(0);">Partnership</a>
+                                                                <a href="javascript:void(0);">Policies</a>
                                                             </li>
                                                         </ul>
                                                     </div>
@@ -108,7 +98,7 @@
                                                 <div class="accordion-header">
                                                     <a href="javascript:void(0);"
                                                         class="accordion-button <?= basename($_SERVER["SCRIPT_FILENAME"], '.php') == 'Services' ? 'active' : '' ?>">
-                                                        Registrations
+                                                        OS & E
                                                     </a>
                                                 </div>
                                             </div>
@@ -116,7 +106,7 @@
                                                 <div class="accordion-header">
                                                     <a href="javascript:void(0);"
                                                         class="accordion-button <?= basename($_SERVER["SCRIPT_FILENAME"], '.php') == 'PartnerServices' ? 'active' : '' ?>">
-                                                        Returns
+                                                        FF & E
                                                     </a>
                                                 </div>
                                             </div>
@@ -124,7 +114,7 @@
                                                 <div class="accordion-header">
                                                     <a href="javascript:void(0);"
                                                         class="accordion-button <?= basename($_SERVER["SCRIPT_FILENAME"], '.php') == 'career' ? 'active' : '' ?>">
-                                                        Other Compliances
+                                                        F & B
                                                     </a>
                                                 </div>
                                             </div>
@@ -132,7 +122,7 @@
                                                 <div class="accordion-header">
                                                     <a href="javascript:void(0);"
                                                         class="accordion-button <?= basename($_SERVER["SCRIPT_FILENAME"], '.php') == 'KnowGermany' ? 'active' : '' ?>">
-                                                        Loans
+                                                        Projects
                                                     </a>
                                                 </div>
                                             </div>
@@ -140,7 +130,7 @@
                                                 <div class="accordion-header">
                                                     <a href="audit_Certification.php"
                                                         class="accordion-button <?= basename($_SERVER["SCRIPT_FILENAME"], '.php') == 'KnowGermany' ? 'active' : '' ?>">
-                                                        Audits
+                                                        Products
                                                     </a>
                                                 </div>
                                             </div>
@@ -148,7 +138,7 @@
                                                 <div class="accordion-header">
                                                     <a href="javascript:void(0);"
                                                         class="accordion-button <?= basename($_SERVER["SCRIPT_FILENAME"], '.php') == 'KnowGermany' ? 'active' : '' ?>">
-                                                        Professional Certifications
+                                                        Retail
                                                     </a>
                                                 </div>
                                             </div>
@@ -156,7 +146,15 @@
                                                 <div class="accordion-header">
                                                     <a href="javascript:void(0);"
                                                         class="accordion-button <?= basename($_SERVER["SCRIPT_FILENAME"], '.php') == 'KnowGermany' ? 'active' : '' ?>">
-                                                        Trade Mark
+                                                        Sustainability
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="accordion-item">
+                                                <div class="accordion-header">
+                                                    <a href="javascript:void(0);"
+                                                        class="accordion-button <?= basename($_SERVER["SCRIPT_FILENAME"], '.php') == 'KnowGermany' ? 'active' : '' ?>">
+                                                        Contact
                                                     </a>
                                                 </div>
                                             </div>
@@ -169,9 +167,27 @@
                     <div class="MenuIcon">
                         <button type="button" class="btn btn-primary" data-bs-toggle="modal"
                             data-bs-target="#HeaderPOP">
-                            <span></span>
-                            <span></span>
-                            <span></span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="62" height="26" viewBox="0 0 62 26">
+                                <g id="Group_1785" data-name="Group 1785" transform="translate(-1815 -37)">
+                                    <g id="Group_1784" data-name="Group 1784" transform="translate(-4 -66)">
+                                        <g id="Rectangle_361" data-name="Rectangle 361" transform="translate(1819 103)"
+                                            fill="#fff" stroke="#fff" stroke-width="1">
+                                            <rect width="62" height="2" stroke="none" />
+                                            <rect x="0.5" y="0.5" width="61" height="1" fill="none" />
+                                        </g>
+                                        <g id="Rectangle_362" data-name="Rectangle 362" transform="translate(1819 115)"
+                                            fill="#fff" stroke="#fff" stroke-width="1">
+                                            <rect width="62" height="2" stroke="none" />
+                                            <rect x="0.5" y="0.5" width="61" height="1" fill="none" />
+                                        </g>
+                                        <g id="Rectangle_363" data-name="Rectangle 363" transform="translate(1819 127)"
+                                            fill="#fff" stroke="#fff" stroke-width="1">
+                                            <rect width="62" height="2" stroke="none" />
+                                            <rect x="0.5" y="0.5" width="61" height="1" fill="none" />
+                                        </g>
+                                    </g>
+                                </g>
+                            </svg>
                         </button>
                     </div>
                     <!-- </div> -->
