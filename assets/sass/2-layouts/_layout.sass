@@ -2,6 +2,19 @@
 #pageWrapper
     overflow: hidden
 
+body
+    &.modal-open
+        padding-right: 0 !important
+    &.NOBanner
+        #Header
+            background-color: $black
+            .HeaderMenu
+                .LogoSec
+                    @media only screen and (min-width: 1551px)
+                        padding: 32px 0
+                .MenuIcon
+                    @media only screen and (min-width: 1551px)
+                        top: 44px
 
 #inner_banner
     position: relative
@@ -34,13 +47,11 @@
     color: #fff
     background: $basecolor
 
-
-.MainHead   
-    .Head   
+.MainHead
+    .Head
         font-size: 20px
         line-height: 24px
         color: $black
-        text-transform: uppercase
         @media only screen and (min-width: 576px)
             font-size: 23px
             line-height: 26px
@@ -48,7 +59,7 @@
             font-size: 25px
             line-height: 30px
     &.center
-        .Head   
+        .Head
             text-align: center
 .viewBtn
     width: 124px

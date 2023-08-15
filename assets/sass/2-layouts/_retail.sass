@@ -1,0 +1,76 @@
+.retailPage
+    #InnerBanner
+        &::before
+            background-color: rgba(0,0,0,.74)
+    #cntSec
+        padding: 48px 0
+        @media only screen and (min-width: 576px)
+            padding: 70px 0
+        @media only screen and (min-width: 992px)
+            padding: 90px 0
+        @media only screen and (min-width: 1441px)
+            padding: 108px 0
+        @media only screen and (min-width: 1551px)
+            padding: 135px 0
+        p   
+            font-size: 14px
+            line-height: 27px
+            color: #676767
+            margin-bottom: 0
+            @media only screen and (min-width: 576px)
+                font-size: 16px
+                line-height: 29px
+            @media only screen and (min-width: 992px)
+                font-size: 18px
+                line-height: 31px
+            @media only screen and (min-width: 1441px)
+                font-size: 20px
+                line-height: 33px
+
+    #retailSec
+        background-color: #FBFBFB
+        padding: 68px 0 64px
+        @media only screen and (min-width: 576px)
+            padding: 89px 0 88px
+        @media only screen and (min-width: 992px)
+            padding: 89px 0 119px
+        .retailbx
+            margin-bottom: 58px
+            @media only screen and (min-width: 576px)
+                margin-bottom: 85px
+            @media only screen and (min-width: 768px)
+                margin-bottom: 105px
+            @media only screen and (min-width: 1551px)
+                margin-bottom: 139px
+            &:last-child
+                margin-bottom: 0
+            .MainHead
+                margin-bottom: 18px
+                @media only screen and (min-width: 576px)
+                    margin-bottom: 32px
+                @media only screen and (min-width: 1441px)
+                    margin-bottom: 48px
+                @media only screen and (min-width: 1551px)
+                    margin-bottom: 66px
+            .brandListing
+                margin: -5px
+                @include display
+                @media only screen and (min-width: 576px)
+                    margin: -7px
+                @media only screen and (min-width: 768px)
+                    margin: -9px
+                &>*
+                    width: calc( 100% / 2 )
+                    padding: 5px
+                    @media only screen and (min-width: 576px)
+                        width: calc( 100% / 3 )
+                        padding: 7px
+                    @media only screen and (min-width: 768px)
+                        width: calc( 100% / 4 )
+                        padding: 9px
+                .brandBx
+                    width: 100%
+                    height: 100%
+                    background-color: $white    
+                    img
+                        @include imgFit

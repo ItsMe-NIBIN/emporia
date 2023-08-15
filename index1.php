@@ -28,7 +28,7 @@
                 </div>
                 <div class="abtConRit">
                     <div class="MainHead">
-                        <div class="Head">Know Emporia</div>
+                        <div class="Head">KNOW EMPORIA</div>
                         <p>Emporia is one of leading companies in the luxury hospitality sector with operations across
                             GCC, Qatar, Maldives & Seychelles. Our esteemed clients range from luxury 5 – star hotels to
                             exotic villa resorts, who</p>
@@ -85,36 +85,36 @@
     <!-- Category section  -->
     <section id="categorySec">
         <div class="bgimg">
-            <img src="assets/images/categoryBg.jpg" alt="Category" width="1920" height="1064" class="lazy"
-                loading="lazy" data-src="assets/images/categoryBg.jpg">
+            <img src="assets/images/categoryBg.jpg" id="backgroundChangeImg" alt="Category" width="1920" height="1064"
+                class="lazy" loading="lazy" data-src="assets/images/categoryBg.jpg">
         </div>
         <div class="catListing">
             <div class="itm">
-                <a href="javascript:void(0)" class="catBx">
+                <a href="javascript:void(0)" data-img="assets/images/categoryBg1.jpg" class="catBx">
                     <div class="title">os&e</div>
                     <div class="learnLink">LEARN MORE</div>
                 </a>
             </div>
             <div class="itm">
-                <a href="javascript:void(0)" class="catBx">
+                <a href="javascript:void(0)" data-img="assets/images/categoryBg2.jpg" class="catBx">
                     <div class="title">ff&e</div>
                     <div class="learnLink">LEARN MORE</div>
                 </a>
             </div>
             <div class="itm">
-                <a href="javascript:void(0)" class="catBx">
+                <a href="javascript:void(0)" data-img="assets/images/categoryBg3.jpg" class="catBx">
                     <div class="title">f&b</div>
                     <div class="learnLink">LEARN MORE</div>
                 </a>
             </div>
             <div class="itm">
-                <a href="javascript:void(0)" class="catBx">
+                <a href="javascript:void(0)" data-img="assets/images/categoryBg4.jpg" class="catBx">
                     <div class="title">Sustainability</div>
                     <div class="learnLink">LEARN MORE</div>
                 </a>
             </div>
             <div class="itm">
-                <a href="javascript:void(0)" class="catBx">
+                <a href="javascript:void(0)" data-img="assets/images/categoryBg5.jpg" class="catBx">
                     <div class="title">Retail</div>
                     <div class="learnLink">LEARN MORE</div>
                 </a>
@@ -133,7 +133,7 @@
                         <img src="assets/images/quote.svg" alt="Quote" width="35" height="27" class="lazy"
                             loading="lazy" data-src="assets/images/quote.svg">
                     </div>
-                    <div class="Head">Testimonials</div>
+                    <div class="Head">TESTIMONIALS</div>
                 </div>
                 <div class="owl-carousel owl-theme testiSlide">
                     <div class="testibx">
@@ -467,7 +467,7 @@
             nav: false,
             dots: false,
             items: 1.1,
-            margin: 12,
+            margin: 18,
             responsive: {
                 468: {
                     items: 1.2,
@@ -503,6 +503,17 @@
                 }
             }
         });
+
+        $(".catBx").hover(function () {
+            var image = $(this).data('img');
+            $('#backgroundChangeImg').attr('src',image);
+        });
+
+        $(".catBx").hover(function () {
+            var image = $(this).data('img');
+            $('#backgroundChangeImg').attr('src',image);
+        });
+
 
 
     </script>

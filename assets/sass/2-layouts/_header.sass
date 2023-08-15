@@ -4,9 +4,7 @@
     z-index: 3
     &.show
         opacity: 1
-body
-    &.modal-open
-        padding-right: 0 !important
+
 #Header
     position: absolute
     width: 100%
@@ -180,8 +178,8 @@ body
                                 line-height: 24px
                             &::after
                                 display: none
-                            // &.active, &:hover
-                            //     color: $basecolor !important
+                            &.active, &:hover
+                                color: $basecolor !important
                         &.hasAccord
                             display: flex
                             align-items: center
@@ -217,9 +215,9 @@ body
                                         font-size: 14px
                                         text-transform: uppercase
                                         &.active    
-                                            color: $white
+                                            color: $basecolor
                                         &:hover
-                                            color: $white
+                                            color: $basecolor
                                 &>*
                                     &:not(:last-of-type)
                                         margin-bottom: 12px

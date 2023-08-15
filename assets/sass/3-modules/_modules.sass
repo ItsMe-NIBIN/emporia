@@ -203,3 +203,63 @@
         .imgSec
             img
                 transform: scale(1.06)
+
+#InnerBanner
+    position: relative
+    &::before
+        position: absolute
+        content: ""
+        top: 0
+        left: 0
+        width: 100%
+        height: 100%
+        background-color: rgba(0, 0, 0, 0.57)
+        z-index: 1
+    .BannerImg
+        width: 100%
+        height: 285px
+        position: relative
+        z-index: 0
+        @media only screen and (min-width: 576px)
+            height: 375px
+        @media only screen and (min-width: 992px)
+            height: 425px
+        @media only screen and (min-width: 1200px)
+            height: 465px
+        @media only screen and (min-width: 1441px)
+            height: 565px
+        @media only screen and (min-width: 1551px)
+            height: 635px
+        img
+            filter: grayscale(100%)
+            @include imgFit
+    .bannerCnt
+        position: absolute
+        width: 100%
+        height: 100%
+        bottom: 0
+        left: 0
+        display: flex
+        align-items: end
+        z-index: 2
+        .bannertitle
+            font-size: 24px
+            line-height: 28px
+            padding-bottom: 36px
+            color: $white
+            @media only screen and (min-width: 576px)
+                font-size: 28px
+                line-height: 32px
+                padding-bottom: 44px
+            @media only screen and (min-width: 992px)
+                font-size: 32px
+                line-height: 38px
+                padding-bottom: 52px
+            @media only screen and (min-width: 1441px)
+                font-size: 36px
+                line-height: 42px
+                padding-bottom: 58px
+            @media only screen and (min-width: 1551px)
+                font-size: 40px
+                line-height: 48px
+                padding-bottom: 62px

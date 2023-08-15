@@ -1,0 +1,63 @@
+.CMNContentPage
+    #CMNContentSec
+        padding: 62px 0 64px
+        @media only screen and (min-width: 576px)
+            padding: 98px 0 92px
+        @media only screen and (min-width: 1441px)
+            padding: 122px 0 134px
+        .MainHead
+            .Head   
+                letter-spacing: 0.7px
+                margin-bottom: 15px
+                @media only screen and (min-width: 576px)
+                    margin-bottom: 25px
+            p
+                font-size: 13px
+                line-height: 22px
+                margin-bottom: 12px
+                letter-spacing: 0.7px
+                color: #444444
+                @media only screen and (min-width: 576px)
+                    font-size: 14px
+                    line-height: 27px
+                    margin-bottom: 24px
+                @media only screen and (min-width: 1441px)
+                    margin-bottom: 32px
+                &:last-child
+                    margin-bottom: 0
+            ul
+                margin-bottom: 22px
+                @media only screen and (min-width: 576px)
+                    margin-bottom: 32px
+                @media only screen and (min-width: 1441px)
+                    margin-bottom: 45px
+                &>*
+                    &:not(:last-of-type)
+                        margin-bottom: 12px                        
+                        @media only screen and (min-width: 1441px)
+                            margin-bottom: 16px                        
+                li
+                    position: relative
+                    padding-left: 25px
+                    font-size: 13px
+                    line-height: 22px
+                    color: #444444
+                    @media only screen and (min-width: 576px)
+                        font-size: 14px
+                        line-height: 27px
+                        padding-left: 34px
+                    @media only screen and (min-width: 1441px)
+                        padding-left: 42px
+                    &::before
+                        position: absolute
+                        content: ""
+                        width: 8px
+                        height: 8px
+                        top: 6px
+                        left: 0
+                        background-color: $black
+                        @media only screen and (min-width: 576px)
+                            width: 10px
+                            height: 10px
+                            top: 8px
+                        

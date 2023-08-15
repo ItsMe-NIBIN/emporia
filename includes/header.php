@@ -35,7 +35,7 @@
 
 </head>
 
-<body>
+<body class="<?= basename($_SERVER["SCRIPT_FILENAME"], '.php') == 'blogDetails' ? 'NOBanner' : '' ?> <?= basename($_SERVER["SCRIPT_FILENAME"], '.php') == '404' ? 'NOBanner' : '' ?>">
     <header id="Header">
         <section class="HeaderMenu">
             <div class="container1">

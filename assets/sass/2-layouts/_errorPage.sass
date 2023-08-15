@@ -1,18 +1,22 @@
-//ERROR_PAGE
-/******************ERROR_PAGE**********************/
 .errorPage
-    // margin-top: 100px
-    // @media only screen and (min-width: 468px)
-    //     margin-top: 60px
-    // @media only screen and (min-width: 992px)
-    //     margin-top: 83px
+    margin-top: 44.34px
+    @media only screen and (min-width: 576px)
+        margin-top: 58.69px
+    @media only screen and (min-width: 768px)
+        margin-top: 77.91px
+    @media only screen and (min-width: 1441px)
+        margin-top: 95.13px
+    @media only screen and (min-width: 1551px)
+        margin-top: 108px
     .row
         margin: 0
     .page_cntnt
-        padding: 40px 0 70px
+        padding: 40px 0 55px
         text-align: center
         margin: auto
-        @media only screen and (min-width: 468px)
+        @media only screen and (min-width: 576px)
+            padding: 60px 0 90px
+        @media only screen and (min-width: 992px)
             padding: 80px 0 120px
 
     .head_one
@@ -20,7 +24,7 @@
         font-weight: 700
         color: $basecolor
         letter-spacing: 1px
-        @media only screen and (min-width: 468px)
+        @media only screen and (min-width: 576px)
             font-size: 95px
 
     .head_two
@@ -29,7 +33,7 @@
         color: #696868
         margin-bottom: 30px
         letter-spacing: 1px
-        @media only screen and (min-width: 468px)
+        @media only screen and (min-width: 576px)
             font-size: 20px
             margin-bottom: 40px
 
@@ -38,21 +42,36 @@
         line-height: normal
         letter-spacing: 1px
         font-weight: 600
-        color: #696868
+        color: $basecolor
         margin-bottom: 15px
-        @media only screen and (min-width: 468px)
+        @media only screen and (min-width: 576px)
             font-size: 25px
     p
         color: #696868
         margin: 0px
 
-    .viewMore
-        padding: 13px 20px
-        color: #fff
-        margin-top: 35px
-        display: inline-block
+    .backBtn
+        margin: auto
+        margin-top: 20px
+        width: 210px
+        height: 40px
+        border: 2px solid #CECECE
+        font-size: 12px
+        line-height: 20px
+        letter-spacing: 0.7px
         text-transform: uppercase
-        font-weight: 500
-        background: $basecolor
+        color: #333333
+        display: flex
+        justify-content: center
+        align-items: center
+        @media only screen and (min-width: 576px)
+            width: 240px
+            height: 52px
+            font-size: 13px
+            line-height: 25px
         &::before
-            background: $basecolor
+            background-color: $black
+        &:hover
+            border: 2px solid $black
+            span
+                color: $white

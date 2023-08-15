@@ -1,0 +1,169 @@
+.blogPage
+    #blogSecs
+        padding: 66px 0 58px
+        @media only screen and (min-width: 576px)
+            padding: 88px 0 85px
+        @media only screen and (min-width: 992px)
+            padding: 105px 0 100px
+        @media only screen and (min-width: 1200px)
+            padding: 122px 0 112px
+        @media only screen and (min-width: 1441px)
+            padding: 140px 0 128px
+        @media only screen and (min-width: 1551px)
+            padding: 161px 0 136px
+        .row
+            margin: -20px -10px
+            @media only screen and (min-width: 576px)
+                margin: -32px -12px
+            @media only screen and (min-width: 1441px)
+                margin: -38px -15px
+            @media only screen and (min-width: 1551px)
+                margin: -48px -18px
+            @media only screen and (min-width: 1681px)
+                margin: -66px -18px
+            &>*
+                padding: 20px 10px
+                @media only screen and (min-width: 576px)
+                    padding: 32px 12px
+                @media only screen and (min-width: 1441px)
+                    padding: 38px 15px
+                @media only screen and (min-width: 1551px)
+                    padding: 48px 18px
+                @media only screen and (min-width: 1681px)
+                    padding: 66px 18px
+
+.blogDetailsPage
+    margin-top: 44.34px
+    @media only screen and (min-width: 576px)
+        margin-top: 58.69px
+    @media only screen and (min-width: 768px)
+        margin-top: 77.91px
+    @media only screen and (min-width: 1441px)
+        margin-top: 95.13px
+    @media only screen and (min-width: 1551px)
+        margin-top: 108px
+
+    #blogDetails
+        padding: 58px 0 60px
+        @media only screen and (min-width: 576px)
+            padding: 96px 0 80px
+        @media only screen and (min-width: 1441px)
+            padding: 121px 0 95px
+        .MainHead
+            margin-bottom: 15px
+            @media only screen and (min-width: 576px)
+                margin-bottom: 20px
+            .Head
+                letter-spacing: 0.7px
+                margin-bottom: 10px
+                text-transform: uppercase
+                @media only screen and (min-width: 576px)
+                    margin-bottom: 18px
+                @media only screen and (min-width: 1441px)
+                    margin-bottom: 28px
+            .date
+                font-size: 13px
+                line-height: 22px
+                color: #444444
+                @media only screen and (min-width: 576px)
+                    font-size: 14px
+                    line-height: 25px
+        img
+            filter: grayscale(100%)
+            margin-bottom: 30px
+            display: block
+            @include imgFit
+            @media only screen and (min-width: 576px)
+                margin-bottom: 50px
+            @media only screen and (min-width: 1441px)
+                margin-bottom: 70px
+        p
+            font-size: 13px
+            line-height: 22px
+            margin-bottom: 12px
+            letter-spacing: 0.7px
+            color: #444444
+            @media only screen and (min-width: 576px)
+                font-size: 14px
+                line-height: 23px
+                margin-bottom: 26px
+            &:last-child
+                margin-bottom: 0
+        .margSpace
+            padding: 15px 0 30px
+            @media only screen and (min-width: 576px)
+                padding: 30px 0 50px
+            @media only screen and (min-width: 1441px)
+                padding: 45px 0 70px
+        .row
+            margin: -6px
+            @media only screen and (min-width: 576px)
+                margin: -10px
+            @media only screen and (min-width: 1200px)
+                margin: -15px
+            &>*
+                padding: 6px
+                @media only screen and (min-width: 576px)
+                    padding: 10px
+                @media only screen and (min-width: 1200px)
+                    padding: 15px
+
+    #relatedBlogSec
+        background-color: #FBFBFB
+        padding: 52px 0 58px
+        @media only screen and (min-width: 576px)
+            padding: 84px 0 94px
+        @media only screen and (min-width: 1441px)
+            padding: 107px 0 116px
+        .MainHead
+            margin-bottom: 22px
+            @media only screen and (min-width: 576px)
+                margin-bottom: 28px
+            @media only screen and (min-width: 992px)
+                margin-bottom: 32px
+            @media only screen and (min-width: 1441px)
+                margin-bottom: 45px
+            @media only screen and (min-width: 1551px)
+                margin-bottom: 59px
+        .blogBx
+            .cntSec
+                .readBtn
+                    width: 124px
+                    height: 40px
+                    border: 2px solid #CECECE
+                    font-size: 12px
+                    line-height: 20px
+                    letter-spacing: 0.7px
+                    text-transform: uppercase
+                    color: #333333
+                    display: flex
+                    justify-content: center
+                    align-items: center
+                    margin-top: 15px
+                    @media only screen and (min-width: 576px)
+                        width: 150px
+                        height: 48px
+                        font-size: 13px
+                        line-height: 25px
+                        margin-top: 20px
+                    @media only screen and (min-width: 1441px)
+                        margin-top: 25px
+                    @media only screen and (min-width: 1551px)
+                        margin-top: 33px
+                    &::before
+                        background-color: $black
+                    &:hover
+                        border: 2px solid $black
+                        span
+                            color: $white
+        .blogSlide
+            .owl-stage-outer
+                @media only screen and (max-width: 767px)
+                    overflow: visible
+                .owl-item
+                    @media only screen and (max-width: 767px)
+                        opacity: 0
+                        transition: 0.4s all
+                    &.active
+                        @media only screen and (max-width: 767px)
+                            opacity: 1

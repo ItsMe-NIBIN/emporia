@@ -1,0 +1,108 @@
+.policiesPage
+    #contentSec
+        padding: 56px 0 62px
+        @media only screen and (min-width: 576px)
+            padding: 82px 0 88px
+        @media only screen and (min-width: 1200px)
+            padding: 118px 0 123px
+        .MainHead
+            max-width: 1245px
+            margin: auto
+            .Head
+                margin-bottom: 18px
+                @media only screen and (min-width: 576px)
+                    margin-bottom: 28px
+                @media only screen and (min-width: 1441px)
+                    margin-bottom: 31px
+            p
+                margin-bottom: 12px
+                color: #676767
+                @media only screen and (min-width: 576px)
+                    margin-bottom: 24px
+                @media only screen and (min-width: 1441px)
+                    margin-bottom: 38px
+                &:last-child
+                    margin-bottom: 0
+
+    #policyContentSec
+        &>*
+            &:first-child
+                background-image: url("../images/bussiness1.jpg")
+                background-repeat: no-repeat
+                background-size: cover
+                position: relative
+                &::before
+                    position: absolute
+                    content: ""
+                    width: 100%
+                    height: 100%
+                    top: 0
+                    left: 0
+                    background-color: rgba(0, 0, 0, 0.68) !important
+                    z-index: 0
+            &:nth-child(odd)
+                background-color: $black
+                .ContentSec
+                    .MainHead
+                        .Head
+                            color: $white
+            &:nth-child(even)
+                background-color: $white
+        .ContentSec
+            padding: 58px 0 66px
+            position: relative
+            z-index: 2
+            max-width: 1245px
+            margin: auto
+            @media only screen and (min-width: 576px)
+                padding: 86px 0 98px
+            @media only screen and (min-width: 1200px)
+                padding: 125px 0 140px
+            @media only screen and (min-width: 1441px)
+                padding: 165px 0 205px
+            @media only screen and (min-width: 1551px)
+                padding: 200px 0 265px
+            .cnts
+                position: relative
+                .Num
+                    font-size: 36px
+                    line-height: 42px
+                    -webkit-text-stroke: 1px #676767
+                    color: transparent
+                    @media only screen and (min-width: 576px)
+                        font-size: 48px
+                        line-height: 60px
+                    @media only screen and (min-width: 1441px)
+                        position: absolute
+                        top: -5%
+                        left: -7.5%
+                    @media only screen and (min-width: 1551px)
+                        top: -15%
+                        left: -15%
+                        font-size: 96px
+                        line-height: 110px
+                    @media only screen and (min-width: 1681px)
+                        top: -25%
+                        left: -25%
+                        font-size: 150px
+                        line-height: 180px
+                    @media only screen and (max-width: 1440px)
+                        margin-bottom: 30px
+                    @media only screen and (max-width: 575px)
+                        margin-bottom: 22px
+                .MainHead
+                    .Head
+                        margin-bottom: 18px
+                        @media only screen and (min-width: 576px)
+                            margin-bottom: 35px
+                        @media only screen and (min-width: 1441px)
+                            margin-bottom: 48px
+                    p
+                        color: #676767
+                        margin-bottom: 12px
+                        @media only screen and (min-width: 576px)
+                            margin-bottom: 25px
+                        @media only screen and (min-width: 1441px)
+                            margin-bottom: 38px
+                        &:last-child
+                            margin-bottom: 0

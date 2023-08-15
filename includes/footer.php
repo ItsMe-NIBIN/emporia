@@ -3,17 +3,17 @@
         <div class="container">
             <div class="row">
                 <div class="col-xl-5 col-lg-4 col-sm-5">
-                    <div class="logoBx">
+                    <a href="index1.php" class="logoBx">
                         <img src="assets/images/logo.png" alt="Logo" width="195" height="34" class="lazy" loading="lazy"
                             data-src="assets/images/logo.png">
-                    </div>
+                    </a>
                 </div>
                 <div class="col-xl-2 col-lg-2 col-sm-4">
                     <div class="linkSec">
                         <div class="footHead">COMPANY</div>
                         <ul>
                             <li>
-                                <a href="javascript:void(0);">Home</a>
+                                <a href="javascript:void(0);" class="<?= basename($_SERVER["SCRIPT_FILENAME"], '.php') == 'index1' ? 'active' : '' ?>">Home</a>
                             </li>
                             <li>
                                 <a href="javascript:void(0);">About Us</a>
