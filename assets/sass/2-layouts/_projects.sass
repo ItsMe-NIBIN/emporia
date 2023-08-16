@@ -3,12 +3,209 @@
         &::before
             background-color: rgba(0, 0, 0, 0)
 
-
-
-
-
+    #projectsListingSec
+        padding: 62px 0 74px
+        @media only screen and (min-width: 576px)
+            padding: 92px 0 102px
+        @media only screen and (min-width: 1200px)
+            padding: 105px 0 125px
+        @media only screen and (min-width: 1441px)
+            padding: 120px 0 145px
+        @media only screen and (min-width: 1551px)
+            padding: 143px 0 173px
+        .container
+            max-width: 100%
+            padding-left: 15px
+            padding-right: 15px
+            @media only screen and (min-width: 992px)
+                padding-left: 22px
+                padding-right: 22px
+            @media only screen and (min-width: 1200px)
+                padding-left: 35px
+                padding-right: 35px
+            @media only screen and (min-width: 1441px)
+                padding-left: 62px
+                padding-right: 62px
+        .row
+            margin: -5px
+            @media only screen and (min-width: 768px)
+                margin: -6px
+            &>*
+                padding: 5px
+                @media only screen and (min-width: 768px)
+                    padding: 6px
+        .projBx
+            position: relative
+            display: block
+            height: 295px
+            overflow: hidden
+            @media only screen and (min-width: 768px)
+                height: 340px
+            @media only screen and (min-width: 1200px)
+                height: 382px
+            @media only screen and (min-width: 1441px)
+                height: 435px
+            @media only screen and (min-width: 1551px)
+                height: 492px
+            @media only screen and (min-width: 1681px)
+                height: 512px
+            img
+                transition: 0.4s all
+                filter: grayscale(100%)
+                @include imgFit
+            .cntSec
+                position: absolute
+                bottom: 0
+                left: 0
+                width: 100%
+                padding: 18px 16px
+                opacity: 0
+                transition: 0.4s all
+                @media only screen and (min-width: 1200px)
+                    padding: 24px 26px
+                @media only screen and (min-width: 1441px)
+                    padding: 32px 36px
+                @media only screen and (min-width: 1551px)
+                    padding: 36px 42px
+                @media only screen and (min-width: 1681px)
+                    padding: 38px 48px
+                .title
+                    font-size: 17px
+                    line-height: 20px
+                    margin-bottom: 5px
+                    text-transform: uppercase
+                    color: $white
+                    @media only screen and (min-width: 1200px)
+                        font-size: 18px
+                        line-height: 22px
+                        margin-bottom: 6px
+                    @media only screen and (min-width: 1441px)
+                        font-size: 20px
+                        line-height: 24px
+                        margin-bottom: 8px
+                .location
+                    font-size: 12px
+                    line-height: 13px
+                    letter-spacing: 2px
+                    color: rgba(255, 255,255 ,0.5 )
+                    @media only screen and (min-width: 1200px)
+                        font-size: 13px
+                        line-height: 14px
+                    @media only screen and (min-width: 1441px)
+                        font-size: 14px
+                        line-height: 16px
+            &:hover
+                img
+                    transform: scale(1.06)
+                    filter: none
+                .cntSec
+                    opacity: 1
 
 .projectDetailsPage
     #InnerBanner
         &::before
             background-color: rgba(0, 0, 0, 0.42)
+
+    #projectDetailSec
+        padding: 141px 0 113px
+        .contentSec
+            margin-bottom: 134px
+            p
+                font-size: 20px
+                line-height: 38px
+                color: #676767
+                margin-bottom: 52px
+                &:last-child
+                    margin-bottom: 0
+        .detailSec
+            margin-bottom: 77px
+            .row
+                margin: -5px
+                @media only screen and (min-width: 768px)
+                    margin: -6px
+                &>*
+                    padding: 5px
+                    @media only screen and (min-width: 768px)
+                        padding: 6px
+            .proDetBx
+                display: block
+                overflow: hidden
+                width: 100%
+                height: 637px
+                img
+                    transition: 0.6s all
+                    filter: grayscale(100%)
+                    @include imgFit
+                &:hover
+                    img
+                        filter: none
+                        transform: scale(1.04)
+        .pagination
+            .row
+                margin: -13.5px
+                width: 100%
+                &>*
+                    padding: 13.5px
+            .paginateBx
+                border: 1px solid #E6E6E6
+                padding: 14px
+                background-color: $white
+                display: flex
+                flex-wrap: wrap
+                width: 100%
+                height: 170px
+                .imgSec
+                    width: 248px
+                    height: 100%
+                    overflow: hidden
+                    img
+                        transition: 0.4s all
+                        filter: grayscale(100%)
+                        @include imgFit
+                .cntSec
+                    width: calc( 100% - 248px )
+                    padding: 10px 30px
+                    display: flex
+                    flex-wrap: wrap
+                    align-content: center
+                    position: relative
+                    &::before
+                        position: absolute
+                        content: ""
+                        width: 37px
+                        height: 19px
+                        top: 50%
+                        left: 30px
+                        transform: translate( 0 , -50% ) rotate(0)
+                        background-image: url("../images/right-arrow-paginate.svg")
+                        background-repeat: no-repeat
+                        background-size: contain
+                    .dir
+                        font-size: 14px
+                        line-height: 16px
+                        margin-bottom: 10px
+                        color: #8F8F8F
+                        text-align: start
+                        width: 100%
+                    .name
+                        font-size: 25px
+                        line-height: 30px
+                        color: $black
+                        text-align: start
+                        width: 100%
+                &:hover
+                    .imgSec
+                        img
+                            transform: scale(1.02)
+                            filter: none
+                &.prev
+                    .cntSec
+                        .dir, .name
+                            text-align: end
+                &.next
+                    flex-direction: row-reverse
+                    .cntSec
+                        &::before
+                            transform: translate( 0 , -50% ) rotate(180deg)
+                            left: inherit
+                            right: 30px
