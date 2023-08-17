@@ -11,6 +11,7 @@
         <div class="bannerCnt">
             <div class="container">
                 <div class="bannertitle">ST. REGIS HOTEL</div>
+                <div class="subHead">United Arab Emirates</div>
             </div>
         </div>
     </section>
@@ -70,7 +71,7 @@
                     </div>
                 </div>
             </div>
-            <div class="pagination">
+            <div class="paginations">
                 <div class="row">
                     <div class="col-md-6">
                         <a href="javascript:void(0);" class="paginateBx prev">

@@ -263,3 +263,118 @@
                 font-size: 40px
                 line-height: 48px
                 padding-bottom: 62px
+
+.enquirePopup
+    background-color: rgba(0, 0, 0, 0.96)
+    z-index: 99999
+    .modal-dialog
+        @media only screen and (min-width: 576px)
+            max-width: 520px
+        @media only screen and (min-width: 768px)
+            max-width: 720px
+        @media only screen and (min-width: 992px)
+            max-width: 950px
+        @media only screen and (min-width: 1200px)
+            max-width: 1050px
+        @media only screen and (min-width: 1551px)
+            max-width: 1310px
+        .modal-content
+            border-radius: 0
+            .modal-body
+                position: relative
+                padding: 40px 26px
+                @media only screen and (min-width: 576px)
+                    padding: 58px 50px
+                @media only screen and (min-width: 992px)
+                    padding: 70px 72px
+                @media only screen and (min-width: 1551px)
+                    padding: 99px 102px 117px
+                .btnClose
+                    position: absolute
+                    width: 18px
+                    height: 18px
+                    top: 22px
+                    right: 22px
+                    background-image: url("../images/modalClodeBtn.svg")
+                    background-repeat: no-repeat
+                    background-size: contain
+                    background-color: transparent
+                    outline: none
+                    border: 0
+                    @media only screen and (min-width: 576px)
+                        width: 22px
+                        height: 22px
+                        top: 32px
+                        right: 32px
+                    @media only screen and (min-width: 1551px)
+                        width: 25px
+                        height: 25px
+                        top: 47px
+                        right: 42px
+                    &:hover
+                        opacity: 0.6
+                .title
+                    font-size: 22px
+                    line-height: 22px
+                    margin-bottom: 20px
+                    color: $black
+                    text-transform: uppercase
+                    @media only screen and (min-width: 576px)
+                        font-size: 24px
+                        line-height: 28px
+                        margin-bottom: 26px
+                    @media only screen and (min-width: 1551px)
+                        font-size: 25px
+                        line-height: 30px
+                        margin-bottom: 40px
+                .form-group
+                    margin-bottom: 0
+                    .form-control
+                        height: 50px
+                        font-size: 14px
+                        line-height: 16px
+                        color: $black
+                        padding-left: 0
+                        border: 0
+                        border-bottom: 1px solid #6D6D6D
+                        @media only screen and (min-width: 576px)
+                            height: 63px
+                            font-size: 16px
+                            line-height: 19px
+                        &::placeholder
+                            font-size: 14px
+                            line-height: 16px
+                            color: $black
+                            text-transform: uppercase
+                            @media only screen and (min-width: 576px)
+                                font-size: 16px
+                                line-height: 19px
+                    textarea
+                        min-height: 115px
+                        @media only screen and (min-width: 576px)
+                            min-height: 135px
+                .sendBtn
+                    width: 200px
+                    height: 48px
+                    background-color: $black
+                    color: $white
+                    font-size: 12px
+                    letter-spacing: 0.7px
+                    text-transform: uppercase
+                    border: 1px solid $black
+                    @media only screen and (min-width: 576px)
+                        width: 220px
+                        font-size: 13px
+                    &::before
+                        background-color: $white
+                    &:hover
+                        span
+                            color: $black
+                .row
+                    margin: -12px
+                    @media only screen and (min-width: 576px)
+                        margin: -17px -12px
+                    &>*
+                        padding: 12px
+                        @media only screen and (min-width: 576px)
+                            padding: 17px 12px

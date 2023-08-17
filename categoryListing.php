@@ -40,7 +40,8 @@
             <div class="productsListing">
                 <div class="row">
                     <div class="col-lg-4 col-sm-6">
-                        <a href="javascript:void(0);" class="productBox">
+                        <a href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#enquireModal"
+                            class="productBox">
                             <div class="imgBx">
                                 <img src="assets/images/pro21.jpg" alt="products" width="583" height="512" class="lazy"
                                     loading="lazy" data-src="assets/images/pro21.jpg">
@@ -147,6 +148,46 @@
             dropdownCssClass: "select2--small",
         });
     </script>
+
+
+    <div class="modal fade enquirePopup" id="enquireModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="btnClose" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <div class="title">Enquire Now</div>
+                    <form action="javascript:void(0);">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Name">
+                                    <div class="help-block">Invalid input</div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Email">
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Phone">
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <textarea class="form-control" placeholder="Message"></textarea>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <button class="sendBtn hoveranim" type="button"><span>SEND MESSAGE</span></button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
 </div>
