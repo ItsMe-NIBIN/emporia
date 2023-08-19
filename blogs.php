@@ -22,7 +22,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 col-md-6">
-                    <a href="blogDetails.php" class="blogBx">
+                    <a href="blogDetails.php" class="blogBx" data-aos="fade-up">
                         <div class="imgSec">
                             <img src="assets/images/blog1.jpg" alt="Blog" width="472" height="537" class="lazy"
                                 loading="lazy" data-src="assets/images/blog1.jpg">
@@ -37,7 +37,7 @@
                     </a>
                 </div>
                 <div class="col-lg-4 col-md-6">
-                    <a href="blogDetails.php" class="blogBx">
+                    <a href="blogDetails.php" class="blogBx" data-aos="fade-up">
                         <div class="imgSec">
                             <img src="assets/images/blog2.jpg" alt="Blog" width="472" height="537" class="lazy"
                                 loading="lazy" data-src="assets/images/blog2.jpg">
@@ -52,7 +52,7 @@
                     </a>
                 </div>
                 <div class="col-lg-4 col-md-6">
-                    <a href="blogDetails.php" class="blogBx">
+                    <a href="blogDetails.php" class="blogBx" data-aos="fade-up">
                         <div class="imgSec">
                             <img src="assets/images/blog3.jpg" alt="Blog" width="472" height="537" class="lazy"
                                 loading="lazy" data-src="assets/images/blog3.jpg">
@@ -67,7 +67,7 @@
                     </a>
                 </div>
                 <div class="col-lg-4 col-md-6">
-                    <a href="blogDetails.php" class="blogBx">
+                    <a href="blogDetails.php" class="blogBx" data-aos="fade-up">
                         <div class="imgSec">
                             <img src="assets/images/blog1.jpg" alt="Blog" width="472" height="537" class="lazy"
                                 loading="lazy" data-src="assets/images/blog1.jpg">
@@ -82,7 +82,7 @@
                     </a>
                 </div>
                 <div class="col-lg-4 col-md-6">
-                    <a href="blogDetails.php" class="blogBx">
+                    <a href="blogDetails.php" class="blogBx" data-aos="fade-up">
                         <div class="imgSec">
                             <img src="assets/images/blog2.jpg" alt="Blog" width="472" height="537" class="lazy"
                                 loading="lazy" data-src="assets/images/blog2.jpg">
@@ -97,7 +97,7 @@
                     </a>
                 </div>
                 <div class="col-lg-4 col-md-6">
-                    <a href="blogDetails.php" class="blogBx">
+                    <a href="blogDetails.php" class="blogBx" data-aos="fade-up">
                         <div class="imgSec">
                             <img src="assets/images/blog3.jpg" alt="Blog" width="472" height="537" class="lazy"
                                 loading="lazy" data-src="assets/images/blog3.jpg">
@@ -112,7 +112,7 @@
                     </a>
                 </div>
                 <div class="col-lg-4 col-md-6">
-                    <a href="blogDetails.php" class="blogBx">
+                    <a href="blogDetails.php" class="blogBx" data-aos="fade-up">
                         <div class="imgSec">
                             <img src="assets/images/blog1.jpg" alt="Blog" width="472" height="537" class="lazy"
                                 loading="lazy" data-src="assets/images/blog1.jpg">
@@ -127,7 +127,7 @@
                     </a>
                 </div>
                 <div class="col-lg-4 col-md-6">
-                    <a href="blogDetails.php" class="blogBx">
+                    <a href="blogDetails.php" class="blogBx" data-aos="fade-up">
                         <div class="imgSec">
                             <img src="assets/images/blog2.jpg" alt="Blog" width="472" height="537" class="lazy"
                                 loading="lazy" data-src="assets/images/blog2.jpg">
@@ -142,7 +142,7 @@
                     </a>
                 </div>
                 <div class="col-lg-4 col-md-6">
-                    <a href="blogDetails.php" class="blogBx">
+                    <a href="blogDetails.php" class="blogBx" data-aos="fade-up">
                         <div class="imgSec">
                             <img src="assets/images/blog3.jpg" alt="Blog" width="472" height="537" class="lazy"
                                 loading="lazy" data-src="assets/images/blog3.jpg">

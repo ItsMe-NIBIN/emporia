@@ -79,16 +79,16 @@
                                                     <div class="accordion-body">
                                                         <ul>
                                                             <li>
-                                                                <a href="javascript:void(0);">Who We Are</a>
+                                                                <a href="whoweare.php" class="<?= basename($_SERVER["SCRIPT_FILENAME"], '.php') == 'whoweare' ? 'active' : '' ?>">Who We Are</a>
                                                             </li>
                                                             <li>
-                                                                <a href="javascript:void(0);">About Us</a>
+                                                                <a href="about.php" class="<?= basename($_SERVER["SCRIPT_FILENAME"], '.php') == 'about' ? 'active' : '' ?>">About Us</a>
                                                             </li>
                                                             <li>
-                                                                <a href="javascript:void(0);">Our Team</a>
+                                                                <a href="team.php" class="<?= basename($_SERVER["SCRIPT_FILENAME"], '.php') == 'team' ? 'active' : '' ?>">Our Team</a>
                                                             </li>
                                                             <li>
-                                                                <a href="javascript:void(0);">Policies</a>
+                                                                <a href="policies.php" class="<?= basename($_SERVER["SCRIPT_FILENAME"], '.php') == 'policies' ? 'active' : '' ?>">Policies</a>
                                                             </li>
                                                         </ul>
                                                     </div>
@@ -104,8 +104,8 @@
                                             </div>
                                             <div class="accordion-item">
                                                 <div class="accordion-header">
-                                                    <a href="javascript:void(0);"
-                                                        class="accordion-button <?= basename($_SERVER["SCRIPT_FILENAME"], '.php') == 'PartnerServices' ? 'active' : '' ?>">
+                                                    <a href="category.php"
+                                                        class="accordion-button <?= basename($_SERVER["SCRIPT_FILENAME"], '.php') == 'category' ? 'active' : '' ?>">
                                                         FF & E
                                                     </a>
                                                 </div>
@@ -120,24 +120,24 @@
                                             </div>
                                             <div class="accordion-item">
                                                 <div class="accordion-header">
-                                                    <a href="javascript:void(0);"
-                                                        class="accordion-button <?= basename($_SERVER["SCRIPT_FILENAME"], '.php') == 'KnowGermany' ? 'active' : '' ?>">
+                                                    <a href="projects.php"
+                                                        class="accordion-button <?= basename($_SERVER["SCRIPT_FILENAME"], '.php') == 'projects' ? 'active' : '' ?>">
                                                         Projects
                                                     </a>
                                                 </div>
                                             </div>
                                             <div class="accordion-item">
                                                 <div class="accordion-header">
-                                                    <a href="audit_Certification.php"
-                                                        class="accordion-button <?= basename($_SERVER["SCRIPT_FILENAME"], '.php') == 'KnowGermany' ? 'active' : '' ?>">
+                                                    <a href="products.php"
+                                                        class="accordion-button <?= basename($_SERVER["SCRIPT_FILENAME"], '.php') == 'products' ? 'active' : '' ?>">
                                                         Products
                                                     </a>
                                                 </div>
                                             </div>
                                             <div class="accordion-item">
                                                 <div class="accordion-header">
-                                                    <a href="javascript:void(0);"
-                                                        class="accordion-button <?= basename($_SERVER["SCRIPT_FILENAME"], '.php') == 'KnowGermany' ? 'active' : '' ?>">
+                                                    <a href="retail.php"
+                                                        class="accordion-button <?= basename($_SERVER["SCRIPT_FILENAME"], '.php') == 'retail' ? 'active' : '' ?>">
                                                         Retail
                                                     </a>
                                                 </div>
@@ -152,8 +152,8 @@
                                             </div>
                                             <div class="accordion-item">
                                                 <div class="accordion-header">
-                                                    <a href="javascript:void(0);"
-                                                        class="accordion-button <?= basename($_SERVER["SCRIPT_FILENAME"], '.php') == 'KnowGermany' ? 'active' : '' ?>">
+                                                    <a href="contact.php"
+                                                        class="accordion-button <?= basename($_SERVER["SCRIPT_FILENAME"], '.php') == 'contact' ? 'active' : '' ?>">
                                                         Contact
                                                     </a>
                                                 </div>

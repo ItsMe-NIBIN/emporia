@@ -41,7 +41,7 @@
                 <div class="row">
                     <div class="col-lg-4 col-sm-6">
                         <a href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#enquireModal"
-                            class="productBox">
+                            class="productBox" data-aos="fade-up">
                             <div class="imgBx">
                                 <img src="assets/images/pro21.jpg" alt="products" width="583" height="512" class="lazy"
                                     loading="lazy" data-src="assets/images/pro21.jpg">
@@ -50,7 +50,7 @@
                         </a>
                     </div>
                     <div class="col-lg-4 col-sm-6">
-                        <a href="javascript:void(0);" class="productBox">
+                        <a href="javascript:void(0);" class="productBox" data-aos="fade-up">
                             <div class="imgBx">
                                 <img src="assets/images/pro22.jpg" alt="products" width="583" height="512" class="lazy"
                                     loading="lazy" data-src="assets/images/pro22.jpg">
@@ -59,7 +59,7 @@
                         </a>
                     </div>
                     <div class="col-lg-4 col-sm-6">
-                        <a href="javascript:void(0);" class="productBox">
+                        <a href="javascript:void(0);" class="productBox" data-aos="fade-up">
                             <div class="imgBx">
                                 <img src="assets/images/pro23.jpg" alt="products" width="583" height="512" class="lazy"
                                     loading="lazy" data-src="assets/images/pro23.jpg">
@@ -69,7 +69,7 @@
                         </a>
                     </div>
                     <div class="col-lg-4 col-sm-6">
-                        <a href="javascript:void(0);" class="productBox">
+                        <a href="javascript:void(0);" class="productBox" data-aos="fade-up">
                             <div class="imgBx">
                                 <img src="assets/images/pro24.jpg" alt="products" width="583" height="512" class="lazy"
                                     loading="lazy" data-src="assets/images/pro24.jpg">
@@ -78,7 +78,7 @@
                         </a>
                     </div>
                     <div class="col-lg-4 col-sm-6">
-                        <a href="javascript:void(0);" class="productBox">
+                        <a href="javascript:void(0);" class="productBox" data-aos="fade-up">
                             <div class="imgBx">
                                 <img src="assets/images/pro25.jpg" alt="products" width="583" height="512" class="lazy"
                                     loading="lazy" data-src="assets/images/pro25.jpg">
@@ -87,7 +87,7 @@
                         </a>
                     </div>
                     <div class="col-lg-4 col-sm-6">
-                        <a href="javascript:void(0);" class="productBox">
+                        <a href="javascript:void(0);" class="productBox" data-aos="fade-up">
                             <div class="imgBx">
                                 <img src="assets/images/pro26.jpg" alt="products" width="583" height="512" class="lazy"
                                     loading="lazy" data-src="assets/images/pro26.jpg">
@@ -96,7 +96,7 @@
                         </a>
                     </div>
                     <div class="col-lg-4 col-sm-6">
-                        <a href="javascript:void(0);" class="productBox">
+                        <a href="javascript:void(0);" class="productBox" data-aos="fade-up">
                             <div class="imgBx">
                                 <img src="assets/images/pro27.jpg" alt="products" width="583" height="512" class="lazy"
                                     loading="lazy" data-src="assets/images/pro27.jpg">
@@ -105,7 +105,7 @@
                         </a>
                     </div>
                     <div class="col-lg-4 col-sm-6">
-                        <a href="javascript:void(0);" class="productBox">
+                        <a href="javascript:void(0);" class="productBox" data-aos="fade-up">
                             <div class="imgBx">
                                 <img src="assets/images/pro28.jpg" alt="products" width="583" height="512" class="lazy"
                                     loading="lazy" data-src="assets/images/pro28.jpg">
@@ -114,7 +114,7 @@
                         </a>
                     </div>
                     <div class="col-lg-4 col-sm-6">
-                        <a href="javascript:void(0);" class="productBox">
+                        <a href="javascript:void(0);" class="productBox" data-aos="fade-up">
                             <div class="imgBx">
                                 <img src="assets/images/pro29.jpg" alt="products" width="583" height="512" class="lazy"
                                     loading="lazy" data-src="assets/images/pro29.jpg">

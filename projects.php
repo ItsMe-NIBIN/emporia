@@ -22,7 +22,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 col-sm-6">
-                    <a href="projectDetails.php" class="projBx">
+                    <a href="projectDetails.php" class="projBx" data-aos="fade-up">
                         <img src="assets/images/project1.png" alt="Project" class="lazy" loading="lazy"
                             data-src="assets/images/project1.png">
                         <div class="cntSec">
@@ -32,7 +32,7 @@
                     </a>
                 </div>
                 <div class="col-lg-4 col-sm-6">
-                    <a href="projectDetails.php" class="projBx">
+                    <a href="projectDetails.php" class="projBx" data-aos="fade-up">
                         <img src="assets/images/project2.png" alt="Project" class="lazy" loading="lazy"
                             data-src="assets/images/project2.png">
                         <div class="cntSec">
@@ -42,7 +42,7 @@
                     </a>
                 </div>
                 <div class="col-lg-4 col-sm-6">
-                    <a href="projectDetails.php" class="projBx">
+                    <a href="projectDetails.php" class="projBx" data-aos="fade-up">
                         <img src="assets/images/project3.png" alt="Project" class="lazy" loading="lazy"
                             data-src="assets/images/project3.png">
                         <div class="cntSec">
@@ -52,7 +52,7 @@
                     </a>
                 </div>
                 <div class="col-lg-4 col-sm-6">
-                    <a href="projectDetails.php" class="projBx">
+                    <a href="projectDetails.php" class="projBx" data-aos="fade-up">
                         <img src="assets/images/project4.png" alt="Project" class="lazy" loading="lazy"
                             data-src="assets/images/project4.png">
                         <div class="cntSec">
@@ -62,7 +62,7 @@
                     </a>
                 </div>
                 <div class="col-lg-4 col-sm-6">
-                    <a href="projectDetails.php" class="projBx">
+                    <a href="projectDetails.php" class="projBx" data-aos="fade-up">
                         <img src="assets/images/project5.png" alt="Project" class="lazy" loading="lazy"
                             data-src="assets/images/project5.png">
                         <div class="cntSec">
@@ -72,7 +72,7 @@
                     </a>
                 </div>
                 <div class="col-lg-4 col-sm-6">
-                    <a href="projectDetails.php" class="projBx">
+                    <a href="projectDetails.php" class="projBx" data-aos="fade-up">
                         <img src="assets/images/project6.png" alt="Project" class="lazy" loading="lazy"
                             data-src="assets/images/project6.png">
                         <div class="cntSec">
@@ -82,7 +82,7 @@
                     </a>
                 </div>
                 <div class="col-lg-4 col-sm-6">
-                    <a href="projectDetails.php" class="projBx">
+                    <a href="projectDetails.php" class="projBx" data-aos="fade-up">
                         <img src="assets/images/project1.png" alt="Project" class="lazy" loading="lazy"
                             data-src="assets/images/project1.png">
                         <div class="cntSec">
@@ -92,7 +92,7 @@
                     </a>
                 </div>
                 <div class="col-lg-4 col-sm-6">
-                    <a href="projectDetails.php" class="projBx">
+                    <a href="projectDetails.php" class="projBx" data-aos="fade-up">
                         <img src="assets/images/project2.png" alt="Project" class="lazy" loading="lazy"
                             data-src="assets/images/project2.png">
                         <div class="cntSec">
@@ -102,7 +102,7 @@
                     </a>
                 </div>
                 <div class="col-lg-4 col-sm-6">
-                    <a href="projectDetails.php" class="projBx">
+                    <a href="projectDetails.php" class="projBx" data-aos="fade-up">
                         <img src="assets/images/project3.png" alt="Project" class="lazy" loading="lazy"
                             data-src="assets/images/project3.png">
                         <div class="cntSec">

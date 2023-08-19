@@ -21,7 +21,7 @@
     <!-- projects Details Section  -->
     <section id="projectDetailSec">
         <div class="container">
-            <div class="contentSec">
+            <div class="contentSec" data-aos="fade-up">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quo modo autem optimum, si bonum praeterea
                     nullum est? Tum ille: Tu autem cum ipse tantum librorum habeas, quos hic tandem requiris? Quo studio
                     Aristophanem putamus aetatem in litteris duxisse? Quod mihi quidem visus est, cum sciret, velle
@@ -34,37 +34,37 @@
             <div class="detailSec">
                 <div class="row">
                     <div class="col-lg-12">
-                        <a href="assets/images/projDet1.jpg" class="proDetBx" data-fancybox="group">
+                        <a href="assets/images/projDet1.jpg" class="proDetBx" data-fancybox="group" data-aos="fade-up">
                             <img src="assets/images/projDet1.jpg" alt="Projects" width="1494" height="637" class="lazy"
                                 loading="lazy" data-src="assets/images/projDet1.jpg">
                         </a>
                     </div>
                     <div class="col-lg-6">
-                        <a href="assets/images/projDet2.jpg" class="proDetBx" data-fancybox="group">
+                        <a href="assets/images/projDet2.jpg" class="proDetBx" data-fancybox="group" data-aos="fade-up">
                             <img src="assets/images/projDet2.jpg" alt="Projects" width="1494" height="637" class="lazy"
                                 loading="lazy" data-src="assets/images/projDet2.jpg">
                         </a>
                     </div>
                     <div class="col-lg-6">
-                        <a href="assets/images/projDet3.jpg" class="proDetBx" data-fancybox="group">
+                        <a href="assets/images/projDet3.jpg" class="proDetBx" data-fancybox="group" data-aos="fade-up">
                             <img src="assets/images/projDet3.jpg" alt="Projects" width="1494" height="637" class="lazy"
                                 loading="lazy" data-src="assets/images/projDet3.jpg">
                         </a>
                     </div>
                     <div class="col-lg-12">
-                        <a href="assets/images/projDet4.jpg" class="proDetBx" data-fancybox="group">
+                        <a href="assets/images/projDet4.jpg" class="proDetBx" data-fancybox="group" data-aos="fade-up">
                             <img src="assets/images/projDet4.jpg" alt="Projects" width="1494" height="637" class="lazy"
                                 loading="lazy" data-src="assets/images/projDet4.jpg">
                         </a>
                     </div>
                     <div class="col-lg-6">
-                        <a href="assets/images/projDet5.jpg" class="proDetBx" data-fancybox="group">
+                        <a href="assets/images/projDet5.jpg" class="proDetBx" data-fancybox="group" data-aos="fade-up">
                             <img src="assets/images/projDet5.jpg" alt="Projects" width="1494" height="637" class="lazy"
                                 loading="lazy" data-src="assets/images/projDet5.jpg">
                         </a>
                     </div>
                     <div class="col-lg-6">
-                        <a href="assets/images/projDet6.jpg" class="proDetBx" data-fancybox="group">
+                        <a href="assets/images/projDet6.jpg" class="proDetBx" data-fancybox="group" data-aos="fade-up">
                             <img src="assets/images/projDet6.jpg" alt="Projects" width="1494" height="637" class="lazy"
                                 loading="lazy" data-src="assets/images/projDet6.jpg">
                         </a>
@@ -74,7 +74,7 @@
             <div class="paginations">
                 <div class="row">
                     <div class="col-md-6">
-                        <a href="javascript:void(0);" class="paginateBx prev">
+                        <a href="javascript:void(0);" class="paginateBx prev" data-aos="fade-up">
                             <div class="imgSec">
                                 <img src="assets/images/paginate1.jpg" alt="">
                             </div>
@@ -85,7 +85,7 @@
                         </a>
                     </div>
                     <div class="col-md-6">
-                        <a href="javascript:void(0);" class="paginateBx next">
+                        <a href="javascript:void(0);" class="paginateBx next" data-aos="fade-up">
                             <div class="imgSec">
                                 <img src="assets/images/paginate2.jpg" alt="">
                             </div>
@@ -107,7 +107,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"
         integrity="sha512-uURl+ZXMBrF4AwGaWmEetzrd+J5/8NRkWAvJx5sbPSSuOb0bZLqf+tOzniObO00BjHa/dD7gub9oCGMLPQHtQA=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-        
+
 
 </div>
 

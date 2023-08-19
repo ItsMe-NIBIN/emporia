@@ -1,1 +1,273 @@
 .contactPage
+    #contactAdressSec
+        position: relative
+        .row
+            @media only screen and ( max-width: 991px )
+                flex-direction: column-reverse
+        &::before
+            position: absolute
+            content: ""
+            top: 0
+            right: 0
+            width: 100%
+            height: 100%
+            background-color: rgba(0, 0, 0, 1)
+            z-index: 2
+            @media only screen and ( max-width: 991px )
+                background-color: rgba(0, 0, 0, .8)
+        .leftSec
+            position: relative
+            z-index: 2
+            height: 100%
+            @media only screen and ( max-width: 991px )
+                position: absolute
+                top: 0
+                left: 0
+                width: 100%
+                height: 100%
+                z-index: 1
+            img
+                filter: grayscale(100%)
+                @include imgFit
+        .ritSec
+            .custom_container
+                margin-right: auto
+                padding-left: 15px
+                padding-right: 15px
+                @media only screen and ( min-width: 1200px )
+                    width: calc(50% - ((100% - 1180px)/ 2))
+                    padding-left: 0
+                @media only screen and ( min-width: 1441px )
+                    width: calc(50% - ((100% - 1290px)/ 2))
+                @media only screen and ( min-width: 1551px )
+                    width: calc(50% - ((100% - 1524px)/ 2))
+            .contents
+                position: relative
+                z-index: 3
+                padding: 62px 0
+                @media only screen and ( min-width: 576px )
+                    padding: 86px 0 90px
+                @media only screen and ( min-width: 992px )
+                    padding: 92px 0 104px 32px
+                @media only screen and ( min-width: 1200px )
+                    padding: 110px 0 130px 62px
+                @media only screen and ( min-width: 1441px )
+                    padding: 140px 0 150px 102px
+                @media only screen and ( min-width: 1551px )
+                    padding: 190px 0 190px 128px
+                .MainHead
+                    margin-bottom: 38px
+                    @media only screen and ( min-width: 1200px )
+                        margin-bottom: 71px
+                    .Head
+                        margin-bottom: 26px
+                        color: $white
+                        @media only screen and ( min-width: 1200px )
+                            margin-bottom: 37px
+                    p
+                        color: #676767
+                        margin-bottom: 0
+                .connectSec
+                    align-items: center
+                    @include display
+                    gap: 30px
+                    @media only screen and (min-width: 468px)
+                        gap: 45px
+                    .lftSec
+                        p
+                            font-size: 13px
+                            line-height: 28px
+                            margin-bottom: 0
+                            color: $white
+                            text-transform: uppercase
+                    .ritSec
+                        ul
+                            gap: 25px
+                            @include display
+                            @media only screen and (min-width: 468px)
+                                gap: 32px
+                            li
+                                a
+                                    svg
+                                        width: 19px
+                                        height: 19px
+                                        transition: 0.4s all
+                                        fill: $white
+                                        &#twitter
+                                            width: 16px
+                                            height: 16px
+                                    &:hover
+                                        svg
+                                            fill: $basecolor
+
+    #getintouchSec
+        padding: 52px 0
+        @media only screen and (min-width: 576px)
+            padding: 68px 0
+        @media only screen and (min-width: 992px)
+            padding: 86px 0
+        @media only screen and (min-width: 1200px)
+            padding: 100px 0
+        .MainHead
+            margin-bottom: 38px
+            @media only screen and (min-width: 576px)
+                margin-bottom: 52px
+            @media only screen and (min-width: 992px)
+                margin-bottom: 65px
+            @media only screen and (min-width: 1200px)
+                margin-bottom: 75px
+            @media only screen and (min-width: 1441px)
+                margin-bottom: 87px
+        .row
+            justify-content: center
+            @include display
+            margin: -12px
+            @media only screen and (min-width: 992px)
+                margin: -15px
+            &>*
+                padding: 12px
+                @media only screen and (min-width: 992px)
+                    padding: 15px
+                &:first-child
+                    .getBx
+                        padding-left: 0
+                        border-left: 0
+                &:last-child
+                    .getBx
+                        @media only screen and (max-width: 1199px)
+                            border-left: 0
+            .getBx
+                @media only screen and (min-width: 992px)
+                    border-left: 1px solid rgba(0, 0, 0, 0.1)
+                    padding-left: 55px
+                @media only screen and (min-width: 1441px)
+                    padding-left: 90px
+                @media only screen and (min-width: 1551px)
+                    padding-left: 120px
+                .txt
+                    font-size: 13px
+                    line-height: 32px
+                    color: $black
+                    @media only screen and (min-width: 576px)
+                        font-size: 14px
+                        line-height: 37px
+                .mail
+                    font-size: 16px
+                    line-height: 32px
+                    color: $black
+                    @media only screen and (min-width: 576px)
+                        font-size: 18px
+                        line-height: 37px
+                    &:hover
+                        color: $basecolor
+
+    #contactConnectSec
+        position: relative
+        &::before
+            position: absolute
+            content: ""
+            top: 0
+            right: 0
+            width: 100%
+            height: 100%
+            background-color: rgb(251, 251, 251, 1)
+            z-index: 2
+            @media only screen and ( max-width: 991px )
+                background-color: rgb(251, 251, 251, 0.8)
+        .lftSec
+            position: relative
+            z-index: 2
+            height: 100%
+            @media only screen and ( max-width: 991px )
+                position: absolute
+                top: 0
+                left: 0
+                width: 100%
+                height: 100%
+                z-index: 1
+            img
+                filter: grayscale(100%)
+                @include imgFit
+        .ritSec
+            .custom_container
+                margin-right: auto
+                padding-left: 15px
+                padding-right: 15px
+                @media only screen and ( min-width: 1200px )
+                    width: calc(50% - ((100% - 1180px)/ 2))
+                    padding-left: 0
+                @media only screen and ( min-width: 1441px )
+                    width: calc(50% - ((100% - 1290px)/ 2))
+                @media only screen and ( min-width: 1551px )
+                    width: calc(50% - ((100% - 1524px)/ 2))
+            .contents
+                position: relative
+                z-index: 3
+                padding: 65px 0
+                @media only screen and ( min-width: 992px )
+                    padding: 60px 0 50px 35px
+                @media only screen and ( min-width: 1200px )
+                    padding: 75px 0 85px 65px
+                @media only screen and ( min-width: 1441px )
+                    padding: 143px 0 149px 128px
+                .MainHead
+                    margin-bottom: 25px
+                    @media only screen and ( min-width: 576px )
+                        margin-bottom: 40px
+                .form-group
+                    margin-bottom: 0
+                    .form-control
+                        height: 50px
+                        font-size: 14px
+                        line-height: 16px
+                        color: $black
+                        padding-left: 0
+                        border: 0
+                        border-bottom: 1px solid #6D6D6D
+                        @media only screen and (min-width: 576px)
+                            height: 63px
+                            font-size: 16px
+                            line-height: 19px
+                        &::placeholder
+                            font-size: 14px
+                            line-height: 16px
+                            color: $black
+                            text-transform: uppercase
+                            @media only screen and (min-width: 576px)
+                                font-size: 16px
+                                line-height: 19px
+                    textarea
+                        min-height: 115px
+                        @media only screen and (min-width: 576px)
+                            min-height: 135px
+                    .select2
+                        border: 0 !important
+                        padding-left: 0
+                        border-bottom: 1px solid #6D6D6D !important
+                    .select2-selection__rendered
+                        padding-left: 0 !important
+                .sendBtn
+                    width: 180px
+                    height: 48px
+                    background-color: $black
+                    color: $white
+                    font-size: 12px
+                    letter-spacing: 0.7px
+                    text-transform: uppercase
+                    border: 1px solid $black
+                    @media only screen and (min-width: 576px)
+                        width: 194px
+                        font-size: 13px
+                    &::before
+                        background-color: $white
+                    &:hover
+                        span
+                            color: $black
+                .row
+                    margin: -12px
+                    @media only screen and (min-width: 576px)
+                        margin: -17px -12px
+                    &>*
+                        padding: 12px
+                        @media only screen and (min-width: 576px)
+                            padding: 17px 12px

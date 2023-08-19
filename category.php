@@ -23,7 +23,7 @@
             <div class="productsListing">
                 <div class="row">
                     <div class="col-lg-4 col-sm-6">
-                        <a href="categoryListing.php" class="productBox">
+                        <a href="categoryListing.php" class="productBox" data-aos="fade-up">
                             <div class="imgBx">
                                 <img src="assets/images/pro1.jpg" alt="products" width="583" height="512" class="lazy"
                                     loading="lazy" data-src="assets/images/pro1.jpg">
@@ -32,7 +32,7 @@
                         </a>
                     </div>
                     <div class="col-lg-4 col-sm-6">
-                        <a href="categoryListing.php" class="productBox">
+                        <a href="categoryListing.php" class="productBox" data-aos="fade-up">
                             <div class="imgBx">
                                 <img src="assets/images/pro2.jpg" alt="products" width="583" height="512" class="lazy"
                                     loading="lazy" data-src="assets/images/pro2.jpg">
@@ -41,7 +41,7 @@
                         </a>
                     </div>
                     <div class="col-lg-4 col-sm-6">
-                        <a href="categoryListing.php" class="productBox">
+                        <a href="categoryListing.php" class="productBox" data-aos="fade-up">
                             <div class="imgBx">
                                 <img src="assets/images/pro3.jpg" alt="products" width="583" height="512" class="lazy"
                                     loading="lazy" data-src="assets/images/pro3.jpg">
@@ -50,7 +50,7 @@
                         </a>
                     </div>
                     <div class="col-lg-4 col-sm-6">
-                        <a href="categoryListing.php" class="productBox">
+                        <a href="categoryListing.php" class="productBox" data-aos="fade-up">
                             <div class="imgBx">
                                 <img src="assets/images/pro4.jpg" alt="products" width="583" height="512" class="lazy"
                                     loading="lazy" data-src="assets/images/pro4.jpg">
@@ -59,7 +59,7 @@
                         </a>
                     </div>
                     <div class="col-lg-4 col-sm-6">
-                        <a href="categoryListing.php" class="productBox">
+                        <a href="categoryListing.php" class="productBox" data-aos="fade-up">
                             <div class="imgBx">
                                 <img src="assets/images/pro5.jpg" alt="products" width="583" height="512" class="lazy"
                                     loading="lazy" data-src="assets/images/pro5.jpg">
@@ -68,7 +68,7 @@
                         </a>
                     </div>
                     <div class="col-lg-4 col-sm-6">
-                        <a href="categoryListing.php" class="productBox">
+                        <a href="categoryListing.php" class="productBox" data-aos="fade-up">
                             <div class="imgBx">
                                 <img src="assets/images/pro6.jpg" alt="products" width="583" height="512" class="lazy"
                                     loading="lazy" data-src="assets/images/pro6.jpg">
@@ -77,7 +77,7 @@
                         </a>
                     </div>
                     <div class="col-lg-4 col-sm-6">
-                        <a href="categoryListing.php" class="productBox">
+                        <a href="categoryListing.php" class="productBox" data-aos="fade-up">
                             <div class="imgBx">
                                 <img src="assets/images/pro7.jpg" alt="products" width="583" height="512" class="lazy"
                                     loading="lazy" data-src="assets/images/pro7.jpg">
@@ -86,7 +86,7 @@
                         </a>
                     </div>
                     <div class="col-lg-4 col-sm-6">
-                        <a href="categoryListing.php" class="productBox">
+                        <a href="categoryListing.php" class="productBox" data-aos="fade-up">
                             <div class="imgBx">
                                 <img src="assets/images/pro8.jpg" alt="products" width="583" height="512" class="lazy"
                                     loading="lazy" data-src="assets/images/pro8.jpg">
@@ -95,7 +95,7 @@
                         </a>
                     </div>
                     <div class="col-lg-4 col-sm-6">
-                        <a href="categoryListing.php" class="productBox">
+                        <a href="categoryListing.php" class="productBox" data-aos="fade-up">
                             <div class="imgBx">
                                 <img src="assets/images/pro9.jpg" alt="products" width="583" height="512" class="lazy"
                                     loading="lazy" data-src="assets/images/pro9.jpg">
@@ -104,7 +104,7 @@
                         </a>
                     </div>
                     <div class="col-lg-4 col-sm-6">
-                        <a href="categoryListing.php" class="productBox">
+                        <a href="categoryListing.php" class="productBox" data-aos="fade-up">
                             <div class="imgBx">
                                 <img src="assets/images/pro10.jpg" alt="products" width="583" height="512" class="lazy"
                                     loading="lazy" data-src="assets/images/pro10.jpg">
@@ -113,7 +113,7 @@
                         </a>
                     </div>
                     <div class="col-lg-4 col-sm-6">
-                        <a href="categoryListing.php" class="productBox">
+                        <a href="categoryListing.php" class="productBox" data-aos="fade-up">
                             <div class="imgBx">
                                 <img src="assets/images/pro11.jpg" alt="products" width="583" height="512" class="lazy"
                                     loading="lazy" data-src="assets/images/pro11.jpg">

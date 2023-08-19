@@ -36,31 +36,39 @@
     </section>
     <!-- About Contents Section  -->
 
-
-
     <!-- About Section  -->
     <section id="aboutusSec">
         <div class="knowEmporiaSec">
-            <div class="custom_container">
-                <div class="abtContents">
+            <div class="row">
+                <div class="col-lg-6">
                     <div class="abtConLft">
                         <img src="assets/images/whySec.jpg" alt="Person" width="960" height="862" class="lazy"
                             loading="lazy" data-src="assets/images/whySec.jpg">
                     </div>
-                    <div class="abtConRit">
-                        <div class="MainHead">
-                            <div class="Head">KNOW EMPORIA</div>
-                            <p>Emporia is one of leading companies in the luxury hospitality sector with operations
-                                across
-                                GCC, Qatar, Maldives & Seychelles. Our esteemed clients range from luxury 5 – star
-                                hotels to
-                                exotic villa resorts, who</p>
-                            <p>The success of the hospitality opened gates to retail distribution and we skilfully have
-                                crafted our collection
-                                <br>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Igitur neque stultorum quisquam
-                                beatus neque sapientium
-                            </p>
+                </div>
+                <div class="col-lg-6">
+                    <div class="custom_container">
+                        <div class="abtContents">
+                            <div class="abtConRit" data-aos="fade-up">
+                                <div class="MainHead">
+                                    <div class="Head">KNOW EMPORIA</div>
+                                    <p>Emporia is one of leading companies in the luxury hospitality sector with
+                                        operations
+                                        across
+                                        GCC, Qatar, Maldives & Seychelles. Our esteemed clients range from luxury 5 –
+                                        star
+                                        hotels to
+                                        exotic villa resorts, who</p>
+                                    <p>The success of the hospitality opened gates to retail distribution and we
+                                        skilfully have
+                                        crafted our collection
+                                        <br>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Igitur neque stultorum
+                                        quisquam
+                                        beatus neque sapientium
+                                    </p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -72,7 +80,7 @@
                     <div class="row">
                         <div class="col-lg-6">
                             <div class="ceoConLft">
-                                <div class="MainHead">
+                                <div class="MainHead" data-aos="fade-right">
                                     <div class="Head">MESSAGE fROM CEO</div>
                                     <p>“We aim to achieve absolute
                                         customer satisfaction by providing the best quality products and meeting the
@@ -82,7 +90,7 @@
                             </div>
                         </div>
                         <div class="col-lg-6">
-                            <div class="ceoConRit">
+                            <div class="ceoConRit" data-aos="fade-left">
                                 <img src="assets/images/person.jpg" alt="Person" width="960" height="862" class="lazy"
                                     loading="lazy" data-src="assets/images/person.jpg">
                             </div>
@@ -99,10 +107,10 @@
     <!-- Global Section  -->
     <section id="globalSec">
         <div class="container">
-            <div class="MainHead center">
+            <div class="MainHead center" data-aos="fade-up">
                 <div class="Head">OUR GLOBAL PRESENCE</div>
             </div>
-            <div class="countListing">
+            <div class="countListing" data-aos="fade-up">
                 <div class="itm">
                     <div class="countBx">
                         <div class="count">15</div>

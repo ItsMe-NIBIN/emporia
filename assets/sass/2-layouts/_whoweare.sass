@@ -33,78 +33,290 @@
             &:last-child
                 margin-bottom: 0
 
+    #aboutContentImgSec
+        padding: 54px 0 50px
+        @media only screen and (min-width: 576px)
+            padding: 75px 0 70px
+        @media only screen and (min-width: 992px)
+            padding: 96px 0 88px
+        @media only screen and (min-width: 1441px)
+            padding: 120px 0 125px
+        @media only screen and (min-width: 1551px)
+            padding: 165px 0 173px
+        .abtConBox
+            width: 100%
+            height: 375px
+            position: relative
+            @media only screen and (min-width: 576px)
+                height: 455px
+            @media only screen and (min-width: 992px)
+                height: 530px
+            @media only screen and (min-width: 1441px)
+                height: 605px
+            @media only screen and (min-width: 1551px)
+                height: 673px
+            .imgBx
+                width: 100%
+                height: 100%
+                img
+                    filter: grayscale(100%)
+                    @include imgFit
+            .cntBx
+                padding: 24px 22px
+                position: absolute
+                bottom: 0
+                left: 0
+                width: 100%
+                height: auto
+                @media only screen and (min-width: 576px)
+                    padding: 32px 36px
+                @media only screen and (min-width: 992px)
+                    padding: 42px 70px
+                @media only screen and (min-width: 1441px)
+                    padding: 55px 103px
+                p
+                    font-size: 16px
+                    line-height: 28px
+                    color: $white
+                    margin-bottom: 0
+                    position: relative
+                    z-index: 2
+                    @media only screen and (min-width: 576px)
+                        font-size: 20px
+                        line-height: 32px
+                    @media only screen and (min-width: 992px)
+                        font-size: 22px
+                        line-height: 35px
+                    @media only screen and (min-width: 1441px)
+                        font-size: 25px
+                        line-height: 38px
+                &::before
+                    position: absolute
+                    content: ""
+                    bottom: 0
+                    left: 0
+                    width: 100%
+                    height: 100%
+                    background-image: linear-gradient(transparent, #000)
+                    z-index: 1
+
+    #yearSec
+        position: relative
+        .yearListing
+            position: relative
+            z-index: 2
+            @include display
+            &>*
+                width: 100%
+                @media only screen and (min-width: 992px)
+                    width: calc( 100% / 5 )
+            .yearBx
+                padding: 40px 25px 34px
+                display: block
+                position: relative
+                transition: 0.4s all
+                @media only screen and (min-width: 992px)
+                    min-height: 490px
+                @media only screen and (min-width: 1441px)
+                    min-height: 590px
+                @media only screen and (min-width: 1551px)
+                    min-height: 718px
+                @media only screen and (max-width: 991px)
+                    text-align: center
+                &::after
+                    position: absolute
+                    content: ""
+                    top: 0
+                    left: 0
+                    width: 100%
+                    height: 100%
+                    background-color: rgba(0, 0, 0, 0.92)
+                    z-index: 1
+                .bgImg
+                    position: absolute
+                    top: 0
+                    left: 0
+                    width: 100%
+                    height: 100%
+                    z-index: 0
+                    img
+                        transition: 0.4s all
+                        filter: grayscale(100%)
+                        @include imgFit
+                .cnts
+                    position: relative
+                    width: 100%
+                    z-index: 2
+                    padding: 20px 16px
+                    @media only screen and (min-width: 992px)
+                        position: absolute
+                        top: 50%
+                        left: 0
+                        transform: translate( 0 , -50% )
+                    @media only screen and (min-width: 1290px)
+                        padding: 20px 28px
+                    @media only screen and (min-width: 1441px)
+                        padding: 20px 32px
+                    @media only screen and (min-width: 1551px)
+                        padding: 20px 62px
+                    .title
+                        font-size: 20px
+                        line-height: 22px
+                        margin-bottom: 12px
+                        color: rgba(255, 255, 255, 0.3)
+                        transition: 0.4s all
+                        @media only screen and (min-width: 1441px)
+                            font-size: 22px
+                            line-height: 26px
+                            margin-bottom: 16px
+                        @media only screen and (min-width: 1551px)
+                            font-size: 24px
+                            line-height: 29px
+                            margin-bottom: 20px
+                    .subTxt
+                        font-size: 14px
+                        line-height: 26px
+                        color: #525252
+                        margin-bottom: 0
+                        transition: 0.4s all
+                        @media only screen and (min-width: 1441px)
+                            font-size: 15px
+                            line-height: 28px
+                        @media only screen and (min-width: 1551px)
+                            font-size: 16px
+                            line-height: 30px
+                &:hover
+                    &::after
+                        background-color: rgba(0, 0, 0, 0.62)
+                    .bgImg
+                        img
+                            filter: none
+                    .cnts
+                        .title, .subTxt
+                            color: $white
+
     #missionSec
         position: relative
         &::before
-            position: absolute
-            content: ""
-            width: 50%
-            height: 100%
-            top: 0
-            left: 0
-            background-color: $black
-            z-index: 0
+            @media only screen and (min-width: 992px)
+                position: absolute
+                content: ""
+                width: 50%
+                height: 100%
+                top: 0
+                left: 0
+                background-color: $black
+                z-index: 0
         &::after
-            position: absolute
-            content: ""
-            width: 50%
-            height: 100%
-            top: 0
-            right: 0
-            background-color: $white
-            z-index: 1
+            @media only screen and (min-width: 992px)
+                position: absolute
+                content: ""
+                width: 50%
+                height: 100%
+                top: 0
+                right: 0
+                background-color: $white
+                z-index: 1
         .cnts
-            max-width: 596px
-            padding: 198px 0
+            padding: 60px 0
             position: relative
             z-index: 2
+            @media only screen and (min-width: 576px)
+                padding: 105px 0
+            @media only screen and (min-width: 992px)
+                max-width: 596px
+            @media only screen and (min-width: 1200px)
+                padding: 140px 0
+            @media only screen and (min-width: 1441px)
+                padding: 198px 0
             .MainHead
                 .Head
                     position: relative
-                    margin-bottom: 84px
+                    margin-bottom: 35px
+                    @media only screen and (min-width: 576px)
+                        margin-bottom: 60px
+                    @media only screen and (min-width: 1441px)
+                        margin-bottom: 84px
                     &::before
                         position: absolute
                         content: ""
-                        bottom: -34px
+                        bottom: -15px
                         left: 0
-                        width: 195px
+                        width: 155px
                         height: 1px
                         background-color: #383838
-                p   
+                        @media only screen and (min-width: 576px)
+                            width: 195px
+                            bottom: -24px
+                        @media only screen and (min-width: 1441px)
+                            bottom: -34px
+                p
                     color: #676767
                     margin-bottom: 0
             &.lftSec
-                padding-right: 100px
+                @media only screen and (min-width: 992px)
+                    padding-right: 55px
+                @media only screen and (min-width: 1200px)
+                    padding-right: 80px
+                @media only screen and (min-width: 1441px)
+                    padding-right: 100px
+                @media only screen and (max-width: 991px)
+                    background-color: $black
+                    &::before
+                        position: absolute
+                        content: ""
+                        top: 0
+                        left: -100%
+                        width: 100%
+                        height: 100%
+                        background-color: $black
+                    &::after
+                        position: absolute
+                        content: ""
+                        top: 0
+                        right: -100%
+                        width: 100%
+                        height: 100%
+                        background-color: $black
                 .MainHead
                     .Head
                         color: $white
             &.ritSec
-                padding-left: 100px
+                @media only screen and (min-width: 992px)
+                    padding-left: 55px
+                @media only screen and (min-width: 1200px)
+                    padding-left: 80px
+                @media only screen and (min-width: 1441px)
+                    padding-left: 100px
                 .MainHead
                     .Head
                         color: $black
 
-
-
-
-
     #ourApproachSec
-        @media only screen and (max-width: 991px)
+        position: relative
+        @media only screen and (max-width: 1199px)
             padding: 78px 0
         @media only screen and (max-width: 575px)
-            padding: 58px 0
+            padding: 62px 0 68px
+        @media only screen and (max-width: 1199px)
+            &::before
+                position: absolute
+                content: ""
+                top: 0
+                left: 0
+                width: 100%
+                height: 100%
+                background-color: rgba(0, 0, 0, 0.6)
+                z-index: 2
         .custom_container
             margin-left: auto
-            padding-right: 15px
-            padding-left: 15px
-            @media only screen and ( min-width: 992px )
-                width: calc(100% - ((100% - 1050px)/ 2))
-                padding-right: 0
             @media only screen and ( min-width: 1200px )
                 width: calc(100% - ((100% - 1180px)/ 2))
+                padding-left: 0
+                padding-right: 0
             @media only screen and ( min-width: 1441px )
                 width: calc(100% - ((100% - 1290px)/ 2))
-            @media only screen and ( min-width: 1560px )
+            @media only screen and ( min-width: 1551px )
                 width: calc(100% - ((100% - 1524px)/ 2))
         .approachContents
             @include display
@@ -113,19 +325,19 @@
                 display: flex
                 flex-wrap: wrap
                 align-content: center
+                position: relative
+                z-index: 3
                 @media only screen and (min-width: 576px)
                     padding: 0px 15px
                 @media only screen and (min-width: 992px)
-                    width: 58%
-                    padding: 55px 0 50px 0
+                    width: 100%
                 @media only screen and (min-width: 1200px)
                     width: 50%
+                    padding: 55px 0 50px 0
                 @media only screen and (min-width: 1441px)
                     padding: 55px 0 60px 0
-                @media only screen and (max-width: 575px)
-                    margin-bottom: 25px
                 .MainHead
-                    @media only screen and (min-width: 992px)
+                    @media only screen and (min-width: 1200px)
                         max-width: 540px
                     .Head
                         margin-bottom: 18px
@@ -133,27 +345,29 @@
                             margin-bottom: 25px
                         @media only screen and (min-width: 1200px)
                             margin-bottom: 32px
+                        @media only screen and (max-width: 1199px)
+                            color: $white
                 p
-                    color: #676767
+                    color: #fff
                     margin-bottom: 12px
                     @media only screen and (min-width: 576px)
                         margin-bottom: 22px
+                    @media only screen and (min-width: 1199px)
+                        color: #676767
                     &:last-child
                         margin-bottom: 0
             .approachConRit
-                width: 100%
-                @media only screen and (min-width: 992px)
-                    width: 42%
-                @media only screen and (min-width: 1200px)
-                    width: 50%
-                @media only screen and (max-width: 991px)
-                    max-width: 470px
-                    margin: auto
+                @media only screen and (max-width: 1199px)
+                    position: absolute
+                    z-index: 0
+                    width: 100%
+                    height: 100%
+                    top: 0
+                    left: 0
                 img
                     filter: grayscale(100%)
-                    max-height: 490px
                     @include imgFit
-                    @media only screen and (min-width: 768px)
+                    @media only screen and (min-width: 1199px)
                         max-height: 630px
                     @media only screen and (min-width: 1441px)
                         max-height: 762px

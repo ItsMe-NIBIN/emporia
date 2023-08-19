@@ -20,7 +20,7 @@
     <!-- Team Quotes Section  -->
     <section id="teamQuotes">
         <div class="container">
-            <div class="teamCnts">
+            <div class="teamCnts" data-aos="fade-up">
                 <p>“We aim to achieve absolute customer satisfaction
                     by providing the best quality products and meeting the
                     everchanging market needs”</p>
@@ -36,7 +36,7 @@
         <div class="container">
             <div class="teamListing">
                 <div class="item">
-                    <div class="teambx">
+                    <div class="teambx" data-aos="fade-up">
                         <div class="imgTop">
                             <img src="assets/images/team1.jpg" alt="Team" width="351" height="480" class="lazy"
                                 loading="lazy" data-src="assets/images/team1.jpg">
@@ -78,7 +78,7 @@
                     </div>
                 </div>
                 <div class="item">
-                    <div class="teambx">
+                    <div class="teambx" data-aos="fade-up">
                         <div class="imgTop">
                             <img src="assets/images/team2.jpg" alt="Team" width="351" height="480" class="lazy"
                                 loading="lazy" data-src="assets/images/team2.jpg">
@@ -120,7 +120,7 @@
                     </div>
                 </div>
                 <div class="item">
-                    <div class="teambx">
+                    <div class="teambx" data-aos="fade-up">
                         <div class="imgTop">
                             <img src="assets/images/team3.jpg" alt="Team" width="351" height="480" class="lazy"
                                 loading="lazy" data-src="assets/images/team3.jpg">
@@ -162,7 +162,7 @@
                     </div>
                 </div>
                 <div class="item">
-                    <div class="teambx">
+                    <div class="teambx" data-aos="fade-up">
                         <div class="imgTop">
                             <img src="assets/images/team4.jpg" alt="Team" width="351" height="480" class="lazy"
                                 loading="lazy" data-src="assets/images/team4.jpg">
@@ -204,7 +204,7 @@
                     </div>
                 </div>
                 <div class="item">
-                    <div class="teambx">
+                    <div class="teambx" data-aos="fade-up">
                         <div class="imgTop">
                             <img src="assets/images/team4.jpg" alt="Team" width="351" height="480" class="lazy"
                                 loading="lazy" data-src="assets/images/team4.jpg">
@@ -246,7 +246,7 @@
                     </div>
                 </div>
                 <div class="item">
-                    <div class="teambx">
+                    <div class="teambx" data-aos="fade-up">
                         <div class="imgTop">
                             <img src="assets/images/team3.jpg" alt="Team" width="351" height="480" class="lazy"
                                 loading="lazy" data-src="assets/images/team3.jpg">
@@ -288,7 +288,7 @@
                     </div>
                 </div>
                 <div class="item">
-                    <div class="teambx">
+                    <div class="teambx" data-aos="fade-up">
                         <div class="imgTop">
                             <img src="assets/images/team2.jpg" alt="Team" width="351" height="480" class="lazy"
                                 loading="lazy" data-src="assets/images/team2.jpg">
@@ -330,7 +330,7 @@
                     </div>
                 </div>
                 <div class="item">
-                    <div class="teambx">
+                    <div class="teambx" data-aos="fade-up">
                         <div class="imgTop">
                             <img src="assets/images/team1.jpg" alt="Team" width="351" height="480" class="lazy"
                                 loading="lazy" data-src="assets/images/team1.jpg">

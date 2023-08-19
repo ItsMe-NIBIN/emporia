@@ -226,12 +226,13 @@ window.addEventListener('resize', appHeight)
 appHeight()
 
 /************ WATERMARK ************/
-var str = "Nibin - Front End Developer";
+var str = "Intersmart";
 console.log("Powered by " + str);
 
 // AOS
 AOS.init({
     duration: 700,
+    once: true,
 });
 
 // LAZY LOAD

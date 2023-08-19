@@ -2,9 +2,6 @@
 
 <div id="pageWrapper">
 
-
-
-
     <!-- Banner Section  -->
     <section id="bannerSec">
         <div class="videoBx">
@@ -17,16 +14,15 @@
     </section>
     <!-- Banner Section  -->
 
-
     <!-- About Section  -->
     <section id="aboutSec">
         <div class="custom_container">
             <div class="abtContent">
-                <div class="abtConLft">
+                <div class="abtConLft" data-aos="fade-right">
                     <img src="assets/images/person.jpg" alt="Person" width="960" height="862" class="lazy"
                         loading="lazy" data-src="assets/images/person.jpg">
                 </div>
-                <div class="abtConRit">
+                <div class="abtConRit" data-aos="fade-left">
                     <div class="MainHead">
                         <div class="Head">KNOW EMPORIA</div>
                         <p>Emporia is one of leading companies in the luxury hospitality sector with operations across
@@ -48,10 +44,10 @@
     <!-- Global Section  -->
     <section id="globalSec">
         <div class="container">
-            <div class="MainHead center">
+            <div class="MainHead center" data-aos="fade-up">
                 <div class="Head">OUR GLOBAL PRESENCE</div>
             </div>
-            <div class="countListing">
+            <div class="countListing" data-aos="fade-up">
                 <div class="itm">
                     <div class="countBx">
                         <div class="count">15</div>
@@ -128,14 +124,14 @@
     <section id="testimonialSec">
         <div class="container">
             <div class="testiContents">
-                <div class="MainHead center">
+                <div class="MainHead center" data-aos="fade-up">
                     <div class="icon">
                         <img src="assets/images/quote.svg" alt="Quote" width="35" height="27" class="lazy"
                             loading="lazy" data-src="assets/images/quote.svg">
                     </div>
                     <div class="Head">TESTIMONIALS</div>
                 </div>
-                <div class="owl-carousel owl-theme testiSlide">
+                <div class="owl-carousel owl-theme testiSlide" data-aos="fade-up">
                     <div class="testibx">
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Igitur neque stultorum quisquam
                             beatus neque sapientium non beatus. Ampulla enim sit necne sit, quis non iure optimo
@@ -174,13 +170,13 @@
     <!-- Projects Section  -->
     <section id="projectSec">
         <div class="container">
-            <div class="HeadSec">
+            <div class="HeadSec" data-aos="fade-up">
                 <div class="MainHead">
                     <div class="Head">PROJECTS</div>
                 </div>
                 <a href="javascript:void(0);" class="viewBtn hoveranim"><span>VIEW ALL</span></a>
             </div>
-            <div class="projectsList">
+            <div class="projectsList" data-aos="fade-up">
                 <div class="row">
                     <div class="col-lg-4 col-sm-6">
                         <a href="javascript:void(0);" class="projBx">
@@ -252,7 +248,7 @@
     <!-- Clients Section  -->
     <section id="brandSec">
         <div class="brandInner">
-            <div class="owl-carousel owl-theme brandSlide">
+            <div class="owl-carousel owl-theme brandSlide" data-aos="fade-up">
                 <div class="clientsBx">
                     <img src="assets/images/client1.png" alt="Clients Logo" width="228" height="153" class="lazy"
                         loading="lazy" data-src="assets/images/client1.png">
@@ -289,14 +285,14 @@
 
     <section id="blogSec">
         <div class="container">
-            <div class="HeadSec">
+            <div class="HeadSec" data-aos="fade-up">
                 <div class="MainHead">
                     <div class="Head">BLOG</div>
                 </div>
                 <a href="javascript:void(0);" class="viewBtn hoveranim"><span>VIEW ALL</span></a>
             </div>
-            <div class="owl-carousel owl-theme blogSlide">
-                <a href="javascript:void(0);" class="blogBx">
+            <div class="owl-carousel owl-theme blogSlide" data-aos="fade-up">
+                <a href="blogdetails.php" class="blogBx">
                     <div class="imgSec">
                         <img src="assets/images/blog1.jpg" alt="Blog" width="472" height="537" class="lazy"
                             loading="lazy" data-src="assets/images/blog1.jpg">
@@ -308,7 +304,7 @@
                         <p>Lorem ipsum dolor sit amet, consectetur elit. Igitur neque stultorum quisquam beatus...</p>
                     </div>
                 </a>
-                <a href="javascript:void(0);" class="blogBx">
+                <a href="blogdetails.php" class="blogBx">
                     <div class="imgSec">
                         <img src="assets/images/blog2.jpg" alt="Blog" width="472" height="537" class="lazy"
                             loading="lazy" data-src="assets/images/blog2.jpg">
@@ -320,7 +316,7 @@
                         <p>Lorem ipsum dolor sit amet, consectetur elit. Igitur neque stultorum quisquam beatus...</p>
                     </div>
                 </a>
-                <a href="javascript:void(0);" class="blogBx">
+                <a href="blogdetails.php" class="blogBx">
                     <div class="imgSec">
                         <img src="assets/images/blog3.jpg" alt="Blog" width="472" height="537" class="lazy"
                             loading="lazy" data-src="assets/images/blog3.jpg">

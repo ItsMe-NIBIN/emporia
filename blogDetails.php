@@ -69,10 +69,10 @@
     <!-- Related Blogs Section  -->
     <section id="relatedBlogSec">
         <div class="container">
-            <div class="MainHead">
+            <div class="MainHead" data-aos="fade-up">
                 <div class="Head">OTHER RELATED BLOGS</div>
             </div>
-            <div class="owl-carousel owl-theme blogSlide">
+            <div class="owl-carousel owl-theme blogSlide" data-aos="fade-up">
                 <a href="javascript:void(0);" class="blogBx">
                     <div class="imgSec">
                         <img src="assets/images/blog1.jpg" alt="Blog" width="472" height="537" class="lazy"

@@ -52,21 +52,20 @@
                     width: calc(100% - ((100% - 1290px)/ 2))
                 @media only screen and ( min-width: 1560px )
                     width: calc(100% - ((100% - 1524px)/ 2))
+            .abtConLft
+                width: 100%
+                height: 100%
+                @media only screen and (max-width: 991px)
+                    max-width: 470px
+                    margin: auto
+                    padding-bottom: 40px
+                    padding-left: 15px
+                    padding-right: 15px
+                img
+                    filter: grayscale(100%)
+                    @include imgFit
             .abtContents
                 @include display
-                .abtConLft
-                    width: 100%
-                    @media only screen and (min-width: 992px)
-                        width: 42%
-                    @media only screen and (min-width: 1200px)
-                        width: 50%
-                    @media only screen and (max-width: 991px)
-                        max-width: 470px
-                        margin: auto
-                        margin-bottom: 40px
-                    img
-                        filter: grayscale(100%)
-                        @include imgFit
                 .abtConRit
                     width: 100%
                     display: flex

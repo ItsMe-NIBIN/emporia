@@ -23,7 +23,8 @@
             <div class="detailListing">
                 <div class="row">
                     <div class="col-lg-12">
-                        <a href="assets/images/proDet1.jpg" data-fancybox="group" class="proDetailBox heightHigh">
+                        <a href="assets/images/proDet1.jpg" data-fancybox="group" class="proDetailBox heightHigh"
+                            data-aos="fade-up">
                             <div class="imgBx">
                                 <img src="assets/images/proDet1.jpg" alt="products" width="583" height="512"
                                     class="lazy" loading="lazy" data-src="assets/images/proDet1.jpg">
@@ -37,7 +38,8 @@
                         </a>
                     </div>
                     <div class="col-lg-4 col-md-6">
-                        <a href="assets/images/proDet2.jpg" data-fancybox="group" class="proDetailBox heightLow">
+                        <a href="assets/images/proDet2.jpg" data-fancybox="group" class="proDetailBox heightLow"
+                            data-aos="fade-up">
                             <div class="imgBx">
                                 <img src="assets/images/proDet2.jpg" alt="products" width="583" height="512"
                                     class="lazy" loading="lazy" data-src="assets/images/proDet2.jpg">
@@ -45,7 +47,8 @@
                         </a>
                     </div>
                     <div class="col-lg-4 col-md-6">
-                        <a href="assets/images/proDet3.jpg" data-fancybox="group" class="proDetailBox heightLow">
+                        <a href="assets/images/proDet3.jpg" data-fancybox="group" class="proDetailBox heightLow"
+                            data-aos="fade-up">
                             <div class="imgBx">
                                 <img src="assets/images/proDet3.jpg" alt="products" width="583" height="512"
                                     class="lazy" loading="lazy" data-src="assets/images/proDet3.jpg">
@@ -53,7 +56,8 @@
                         </a>
                     </div>
                     <div class="col-lg-4 col-md-6">
-                        <a href="assets/images/proDet4.jpg" data-fancybox="group" class="proDetailBox heightLow">
+                        <a href="assets/images/proDet4.jpg" data-fancybox="group" class="proDetailBox heightLow"
+                            data-aos="fade-up">
                             <div class="imgBx">
                                 <img src="assets/images/proDet4.jpg" alt="products" width="583" height="512"
                                     class="lazy" loading="lazy" data-src="assets/images/proDet4.jpg">
@@ -61,7 +65,8 @@
                         </a>
                     </div>
                     <div class="col-lg-6 col-md-12">
-                        <a href="assets/images/proDet5.jpg" data-fancybox="group" class="proDetailBox heightHigh">
+                        <a href="assets/images/proDet5.jpg" data-fancybox="group" class="proDetailBox heightHigh"
+                            data-aos="fade-up">
                             <div class="imgBx">
                                 <img src="assets/images/proDet5.jpg" alt="products" width="583" height="512"
                                     class="lazy" loading="lazy" data-src="assets/images/proDet5.jpg">
@@ -69,7 +74,8 @@
                         </a>
                     </div>
                     <div class="col-lg-6 col-md-12">
-                        <a href="assets/images/proDet6.jpg" data-fancybox="group" class="proDetailBox heightHigh">
+                        <a href="assets/images/proDet6.jpg" data-fancybox="group" class="proDetailBox heightHigh"
+                            data-aos="fade-up">
                             <div class="imgBx">
                                 <img src="assets/images/proDet6.jpg" alt="products" width="583" height="512"
                                     class="lazy" loading="lazy" data-src="assets/images/proDet6.jpg">

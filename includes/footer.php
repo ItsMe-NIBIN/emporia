@@ -13,25 +13,25 @@
                         <div class="footHead">COMPANY</div>
                         <ul>
                             <li>
-                                <a href="javascript:void(0);" class="<?= basename($_SERVER["SCRIPT_FILENAME"], '.php') == 'index1' ? 'active' : '' ?>">Home</a>
+                                <a href="index1.php" class="<?= basename($_SERVER["SCRIPT_FILENAME"], '.php') == 'index1' ? 'active' : '' ?>">Home</a>
                             </li>
                             <li>
-                                <a href="javascript:void(0);">About Us</a>
+                                <a href="about.php"  class="<?= basename($_SERVER["SCRIPT_FILENAME"], '.php') == 'about' ? 'active' : '' ?>">About Us</a>
                             </li>
                             <li>
-                                <a href="javascript:void(0);">Terms & Conditions</a>
+                                <a href="termsAndConditions.php"  class="<?= basename($_SERVER["SCRIPT_FILENAME"], '.php') == 'termsAndConditions' ? 'active' : '' ?>">Terms & Conditions</a>
                             </li>
                             <li>
-                                <a href="javascript:void(0);">Privacy Policy</a>
+                                <a href="privacyPolicy.php" class="<?= basename($_SERVER["SCRIPT_FILENAME"], '.php') == 'privacyPolicy' ? 'active' : '' ?>">Privacy Policy</a>
                             </li>
                             <li>
                                 <a href="javascript:void(0);">News</a>
                             </li>
                             <li>
-                                <a href="javascript:void(0);">Blog</a>
+                                <a href="blogs.php" class="<?= basename($_SERVER["SCRIPT_FILENAME"], '.php') == 'blogs' ? 'active' : '' ?> <?= basename($_SERVER["SCRIPT_FILENAME"], '.php') == 'blogDetails' ? 'active' : '' ?> ">Blog</a>
                             </li>
                             <li>
-                                <a href="javascript:void(0);">Contact Us</a>
+                                <a href="contact.php" class="<?= basename($_SERVER["SCRIPT_FILENAME"], '.php') == 'contact' ? 'active' : '' ?>">Contact Us</a>
                             </li>
                         </ul>
                     </div>
@@ -44,13 +44,13 @@
                                 <a href="javascript:void(0);">OS & E</a>
                             </li>
                             <li>
-                                <a href="javascript:void(0);">FF & E</a>
+                                <a href="category.php" class="<?= basename($_SERVER["SCRIPT_FILENAME"], '.php') == 'category' ? 'active' : '' ?>">FF & E</a>
                             </li>
                             <li>
                                 <a href="javascript:void(0);">F & B</a>
                             </li>
                             <li>
-                                <a href="javascript:void(0);">Retail</a>
+                                <a href="retail.php" class="<?= basename($_SERVER["SCRIPT_FILENAME"], '.php') == 'retail' ? 'active' : '' ?>">Retail</a>
                             </li>
                             <li>
                                 <a href="javascript:void(0);">Sustainability</a>
